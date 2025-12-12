@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespaceexploration_dossier" kind="namespace" language="Python">
+    <compoundname>explorationDossier</compoundname>
+    <innerclass refid="classexploration_dossier_1_1_explorer" prot="public">explorationDossier::Explorer</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>@file explorationDossier.py
+@brief Exploration des dossiers et extraction des fichiers audio.
+
+Fonctionnalités principales :
+- Parcours récursif des dossiers
+- Filtrage des fichiers MP3 et FLAC
+- Extraction des chemins absolus des fichiers audio
+- Lecture des playlists XSPF et extraction des pistes
+- Interface console ou GUI pour lister les fichiers
+
+Utilisé par le CLI et le GUI pour gérer et préparer les fichiers audio.
+
+@author 
+@version 1.0
+@date 
+</verbatim> </para>
+    </detaileddescription>
+    <location file="explorationDossier.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

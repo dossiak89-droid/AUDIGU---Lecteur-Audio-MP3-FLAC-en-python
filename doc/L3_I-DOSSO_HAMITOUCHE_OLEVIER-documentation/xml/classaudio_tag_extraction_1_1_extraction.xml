@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classaudio_tag_extraction_1_1_extraction" kind="class" language="Python" prot="public">
+    <compoundname>audioTagExtraction::Extraction</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classaudio_tag_extraction_1_1_extraction_1ad552289812c88c5edb482d2ef06f3b67" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>tuple[int, int]</type>
+        <definition> tuple[int, int] audioTagExtraction.Extraction.convertir_seconds_en_minutes_secondes</definition>
+        <argsstring>(self, duree)</argsstring>
+        <name>convertir_seconds_en_minutes_secondes</name>
+        <qualifiedname>audioTagExtraction.Extraction.convertir_seconds_en_minutes_secondes</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>duree</type>
+          <defname>duree</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Convertit une durée en secondes en minutes et secondes.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="audioTagExtraction.py" line="29" column="1" bodyfile="audioTagExtraction.py" bodystart="29" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classaudio_tag_extraction_1_1_extraction_1ab74332c3a2ec556ab001f16c9512567b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>dict</type>
+        <definition> dict audioTagExtraction.Extraction.extraction_et_afficher_tag</definition>
+        <argsstring>(self, str file_aud)</argsstring>
+        <name>extraction_et_afficher_tag</name>
+        <qualifiedname>audioTagExtraction.Extraction.extraction_et_afficher_tag</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>file_aud</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Extrait les métadonnées d&apos;un fichier audio (MP3 ou FLAC)
+et les retourne sous forme de dictionnaire.
+Compatible avec le CLI et le GUI.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="audioTagExtraction.py" line="37" column="1" bodyfile="audioTagExtraction.py" bodystart="37" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="classaudio_tag_extraction_1_1_extraction_1aa0235c7c1e21856650e585aed9f7ec5c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None audioTagExtraction.Extraction.afficher_tags_console</definition>
+        <argsstring>(self, str file_aud)</argsstring>
+        <name>afficher_tags_console</name>
+        <qualifiedname>audioTagExtraction.Extraction.afficher_tags_console</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>file_aud</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Affiche proprement les métadonnées dans la console.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="audioTagExtraction.py" line="78" column="1" bodyfile="audioTagExtraction.py" bodystart="78" bodyend="89"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Classe pour extraire et afficher les métadonnées
+des fichiers audio MP3 et FLAC.
+</verbatim> </para>
+    </detaileddescription>
+    <location file="audioTagExtraction.py" line="23" column="1" bodyfile="audioTagExtraction.py" bodystart="23" bodyend="89"/>
+    <listofallmembers>
+      <member refid="classaudio_tag_extraction_1_1_extraction_1aa0235c7c1e21856650e585aed9f7ec5c" prot="public" virt="non-virtual"><scope>audioTagExtraction::Extraction</scope><name>afficher_tags_console</name></member>
+      <member refid="classaudio_tag_extraction_1_1_extraction_1ad552289812c88c5edb482d2ef06f3b67" prot="public" virt="non-virtual"><scope>audioTagExtraction::Extraction</scope><name>convertir_seconds_en_minutes_secondes</name></member>
+      <member refid="classaudio_tag_extraction_1_1_extraction_1ab74332c3a2ec556ab001f16c9512567b" prot="public" virt="non-virtual"><scope>audioTagExtraction::Extraction</scope><name>extraction_et_afficher_tag</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

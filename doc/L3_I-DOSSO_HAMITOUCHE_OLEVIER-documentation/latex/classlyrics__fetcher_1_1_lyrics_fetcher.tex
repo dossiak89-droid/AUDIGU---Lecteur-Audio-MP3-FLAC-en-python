@@ -1,0 +1,65 @@
+\doxysection{lyrics\+\_\+fetcher.\+Lyrics\+Fetcher Class Reference}
+\hypertarget{classlyrics__fetcher_1_1_lyrics_fetcher}{}\label{classlyrics__fetcher_1_1_lyrics_fetcher}\index{lyrics\_fetcher.LyricsFetcher@{lyrics\_fetcher.LyricsFetcher}}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classlyrics__fetcher_1_1_lyrics_fetcher_a5af39257c78a190fb1c6f5a4e8c815e2}{\+\_\+\+\_\+init\+\_\+\+\_\+}} (self)
+\item 
+\mbox{\hyperlink{classlyrics__fetcher_1_1_lyrics_fetcher_af20c855d6fdbea292423059384fb3d70}{get\+\_\+lyrics}} (self, artist, title)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classlyrics__fetcher_1_1_lyrics_fetcher_a95693f980c36acbe00216c6209414bb2}\label{classlyrics__fetcher_1_1_lyrics_fetcher_a95693f980c36acbe00216c6209414bb2} 
+{\bfseries timeout}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classlyrics__fetcher_1_1_lyrics_fetcher_a361f1aad04b8d0b598f1e9a631dd99f0}{\+\_\+fetch\+\_\+from\+\_\+lrclib}} (self, artist, title)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb}Classe pour récupérer les paroles avec LRCLIB API (sans cache)
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classlyrics__fetcher_1_1_lyrics_fetcher_a5af39257c78a190fb1c6f5a4e8c815e2}\label{classlyrics__fetcher_1_1_lyrics_fetcher_a5af39257c78a190fb1c6f5a4e8c815e2} 
+\index{lyrics\_fetcher.LyricsFetcher@{lyrics\_fetcher.LyricsFetcher}!\_\_init\_\_@{\_\_init\_\_}}
+\index{\_\_init\_\_@{\_\_init\_\_}!lyrics\_fetcher.LyricsFetcher@{lyrics\_fetcher.LyricsFetcher}}
+\doxysubsubsection{\texorpdfstring{\_\_init\_\_()}{\_\_init\_\_()}}
+{\footnotesize\ttfamily lyrics\+\_\+fetcher.\+Lyrics\+Fetcher.\+\_\+\+\_\+init\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Initialise le fetcher\end{DoxyVerb}
+ 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classlyrics__fetcher_1_1_lyrics_fetcher_a361f1aad04b8d0b598f1e9a631dd99f0}\label{classlyrics__fetcher_1_1_lyrics_fetcher_a361f1aad04b8d0b598f1e9a631dd99f0} 
+\index{lyrics\_fetcher.LyricsFetcher@{lyrics\_fetcher.LyricsFetcher}!\_fetch\_from\_lrclib@{\_fetch\_from\_lrclib}}
+\index{\_fetch\_from\_lrclib@{\_fetch\_from\_lrclib}!lyrics\_fetcher.LyricsFetcher@{lyrics\_fetcher.LyricsFetcher}}
+\doxysubsubsection{\texorpdfstring{\_fetch\_from\_lrclib()}{\_fetch\_from\_lrclib()}}
+{\footnotesize\ttfamily lyrics\+\_\+fetcher.\+Lyrics\+Fetcher.\+\_\+fetch\+\_\+from\+\_\+lrclib (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{artist,  }\item[{}]{title }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+\begin{DoxyVerb}Récupère les paroles depuis LRCLIB API\end{DoxyVerb}
+ \Hypertarget{classlyrics__fetcher_1_1_lyrics_fetcher_af20c855d6fdbea292423059384fb3d70}\label{classlyrics__fetcher_1_1_lyrics_fetcher_af20c855d6fdbea292423059384fb3d70} 
+\index{lyrics\_fetcher.LyricsFetcher@{lyrics\_fetcher.LyricsFetcher}!get\_lyrics@{get\_lyrics}}
+\index{get\_lyrics@{get\_lyrics}!lyrics\_fetcher.LyricsFetcher@{lyrics\_fetcher.LyricsFetcher}}
+\doxysubsubsection{\texorpdfstring{get\_lyrics()}{get\_lyrics()}}
+{\footnotesize\ttfamily lyrics\+\_\+fetcher.\+Lyrics\+Fetcher.\+get\+\_\+lyrics (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{artist,  }\item[{}]{title }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Récupère les paroles complètes
+
+Args:
+    artist: Nom de l'artiste
+    title: Titre de la chanson
+
+Returns:
+    str: Paroles complètes de la chanson ou message d'erreur
+\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+lyrics\+\_\+fetcher.\+py\end{DoxyCompactItemize}

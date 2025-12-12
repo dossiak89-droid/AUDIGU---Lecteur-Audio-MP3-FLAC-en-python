@@ -1,0 +1,235 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.10.0" xml:lang="en-US">
+  <compound refid="classgui_1_1_audio_app" kind="class"><name>gui::AudioApp</name>
+    <member refid="classgui_1_1_audio_app_1ac9e02e9e120292242748041b44d82700" kind="variable"><name>master</name></member>
+    <member refid="classgui_1_1_audio_app_1ae632f15cae54655dd84b5fc422500a94" kind="variable"><name>FONT_PANEL2_SMALL</name></member>
+    <member refid="classgui_1_1_audio_app_1a40034937f1d966c14cc8c6b93290e728" kind="variable"><name>FONT_PANEL2_MEDIUM</name></member>
+    <member refid="classgui_1_1_audio_app_1a54ec9ed9a09307e1309be9a02cccaaa5" kind="variable"><name>FONT_PANEL2_LARGE</name></member>
+    <member refid="classgui_1_1_audio_app_1a9442b9aa46374177d23617f6e2225cd3" kind="variable"><name>max_length</name></member>
+    <member refid="classgui_1_1_audio_app_1a879d8eaf56257e1b47babafc5869acbd" kind="variable"><name>max_length_milieu</name></member>
+    <member refid="classgui_1_1_audio_app_1a15da49c39a1a0122d45b17e3a5ad3ea4" kind="variable"><name>audio_list</name></member>
+    <member refid="classgui_1_1_audio_app_1ac14e4de359e84c5b6a45d416a8c10007" kind="variable"><name>audio_paths</name></member>
+    <member refid="classgui_1_1_audio_app_1aeb055708cd021650c65feb6f9b1b7d7e" kind="variable"><name>filtered_audio_list</name></member>
+    <member refid="classgui_1_1_audio_app_1ae12be2f26011e3284c6384b43e8fcc9a" kind="variable"><name>current_index</name></member>
+    <member refid="classgui_1_1_audio_app_1a1346f0602684dd4518796c18b7298b85" kind="variable"><name>is_paused</name></member>
+    <member refid="classgui_1_1_audio_app_1a9aac7ea9a946625180c2834bfb8c383a" kind="variable"><name>audio_playing</name></member>
+    <member refid="classgui_1_1_audio_app_1a22731d1f01d541745316a6c6ec09645c" kind="variable"><name>fetcher</name></member>
+    <member refid="classgui_1_1_audio_app_1ae74edd540246168165264750c08a0938" kind="variable"><name>lyrics_fetcher</name></member>
+    <member refid="classgui_1_1_audio_app_1afe6fe2d46891a2d1e6d13219cc67f3b9" kind="variable"><name>current_playlist</name></member>
+    <member refid="classgui_1_1_audio_app_1a814999b709acd053d7133cd6dc99c315" kind="variable"><name>dark_mode</name></member>
+    <member refid="classgui_1_1_audio_app_1aca42d37a64bda58ee585a2d74e58368c" kind="variable"><name>current_lyrics</name></member>
+    <member refid="classgui_1_1_audio_app_1a7b6bb54b0fb70750ee876aef7b83b77b" kind="variable"><name>current_artist</name></member>
+    <member refid="classgui_1_1_audio_app_1ad99f4b617080fb07054c4cd95afe4d4b" kind="variable"><name>current_title</name></member>
+    <member refid="classgui_1_1_audio_app_1ac7a39b724d60467140d98a59d5167211" kind="variable"><name>light_colors</name></member>
+    <member refid="classgui_1_1_audio_app_1a4a70c6c9748c44abab38668bb0e7f2b9" kind="variable"><name>dark_colors</name></member>
+    <member refid="classgui_1_1_audio_app_1ac079382d10d90d7f2d783c33ea5f05d4" kind="variable"><name>chem_im</name></member>
+    <member refid="classgui_1_1_audio_app_1a6723e804e1c116d08fa0c85c22642137" kind="variable"><name>image_path_default</name></member>
+    <member refid="classgui_1_1_audio_app_1a08cd290cb02a15dccfc2ed8532a2c245" kind="variable"><name>default_music_dir</name></member>
+    <member refid="classgui_1_1_audio_app_1ac62370c474907cb18cc368c06391e767" kind="variable"><name>api_music_dir</name></member>
+    <member refid="classgui_1_1_audio_app_1a1ad4fd36071c3664343b35a2c99b5fa1" kind="variable"><name>icons</name></member>
+    <member refid="classgui_1_1_audio_app_1abdf97c1331e142b9cee0441da820a6f8" kind="variable"><name>all_buttons</name></member>
+    <member refid="classgui_1_1_audio_app_1afdfd1b54cbaee2cefc50e9dd98658607" kind="variable"><name>panel1</name></member>
+    <member refid="classgui_1_1_audio_app_1a12b8cd4e24f27a5ed5d9235577d2dbfd" kind="variable"><name>panel2</name></member>
+    <member refid="classgui_1_1_audio_app_1a84466b88669aff3af124b0db10ed5fb2" kind="variable"><name>frame1_haut</name></member>
+    <member refid="classgui_1_1_audio_app_1a73934520cbd100e77c1d6591134b29b3" kind="variable"><name>frame2_centre</name></member>
+    <member refid="classgui_1_1_audio_app_1a6f3982f71335dce7dff98bf6814ef5a8" kind="variable"><name>frame3_bas</name></member>
+    <member refid="classgui_1_1_audio_app_1a229ad12887cc67203b6e8a7410a843a7" kind="variable"><name>search_type_var</name></member>
+    <member refid="classgui_1_1_audio_app_1ad6b0ec1d659c6b29a519178dea134d6b" kind="variable"><name>label_Check</name></member>
+    <member refid="classgui_1_1_audio_app_1a71b03a4828ad0b26c872e75d5f934727" kind="variable"><name>entry_ecriture_haut</name></member>
+    <member refid="classgui_1_1_audio_app_1ad3e05cc6f9bd089541cc6f059fe4c9e3" kind="variable"><name>butt_check_api</name></member>
+    <member refid="classgui_1_1_audio_app_1a1d32f9dee9c1e1bc0496db2659c2848f" kind="variable"><name>butt_retour_api</name></member>
+    <member refid="classgui_1_1_audio_app_1a882257a157a2234a5ad5c29c6db1a0d2" kind="variable"><name>section1_gauche_liste</name></member>
+    <member refid="classgui_1_1_audio_app_1a1a5cec17b223f8f4fa82dbfbed2a06f5" kind="variable"><name>audio_listbox</name></member>
+    <member refid="classgui_1_1_audio_app_1a3a553efc30d6867770e0bd3a77c56d6c" kind="variable"><name>on_listbox_double</name></member>
+    <member refid="classgui_1_1_audio_app_1a797e43dc7dbe6a181e0630372d54bf60" kind="variable"><name>scrollbarlistbox</name></member>
+    <member refid="classgui_1_1_audio_app_1adb07e30bd3219b417e7a15d2da69bc28" kind="variable"><name>on_drop</name></member>
+    <member refid="classgui_1_1_audio_app_1af94043692f3ae03c99304e69083ea62f" kind="variable"><name>section2_centre_cover</name></member>
+    <member refid="classgui_1_1_audio_app_1ab6e0ab8948327079708fd026c0581d30" kind="variable"><name>centrale_label</name></member>
+    <member refid="classgui_1_1_audio_app_1ae3318061a01331cae65b7cc5c3e6a765" kind="variable"><name>A_label_cover</name></member>
+    <member refid="classgui_1_1_audio_app_1aa4033f516ba02c368415acf160963424" kind="variable"><name>B_label_fichier_boutton</name></member>
+    <member refid="classgui_1_1_audio_app_1a941251adb5a7003847e990efe49c1afd" kind="variable"><name>B1_label_fichier_nom</name></member>
+    <member refid="classgui_1_1_audio_app_1a520f55d7ebf484d1b71292229227f591" kind="variable"><name>B2_label_bouton_manip</name></member>
+    <member refid="classgui_1_1_audio_app_1a3f54f2279142740036956d330c8d60a1" kind="variable"><name>panel_controls</name></member>
+    <member refid="classgui_1_1_audio_app_1a7c4d178218fa203a92ea0cf0570dbcb3" kind="variable"><name>prev_audio</name></member>
+    <member refid="classgui_1_1_audio_app_1a8809265069b9d937c943d769ed0730e8" kind="variable"><name>play_audio</name></member>
+    <member refid="classgui_1_1_audio_app_1aba1a34e967cd62748a1f9818a796a61b" kind="variable"><name>pause_resume</name></member>
+    <member refid="classgui_1_1_audio_app_1a29306fe91bbd28d8ce93d5ac41473ea7" kind="variable"><name>next_audio</name></member>
+    <member refid="classgui_1_1_audio_app_1a80459f848575892b06cb362e3b10093b" kind="variable"><name>show_lyrics_popup</name></member>
+    <member refid="classgui_1_1_audio_app_1a7f195c9c9b31e64bd9a93fb71f1c30ba" kind="variable"><name>section3_metaData</name></member>
+    <member refid="classgui_1_1_audio_app_1ade53308ebb9bfd2030def79e6f2a67fa" kind="variable"><name>metaData_label</name></member>
+    <member refid="classgui_1_1_audio_app_1a762d832c8573a6e1cff8ef92fe731107" kind="variable"><name>explo_playlist_boutton</name></member>
+    <member refid="classgui_1_1_audio_app_1ab40c52fde5e5b3d1a72509d20d87d7be" kind="variable"><name>zone_petit_logo</name></member>
+    <member refid="classgui_1_1_audio_app_1ad9316236c1b44f6afb6f83a48ec9200b" kind="variable"><name>im_tk</name></member>
+    <member refid="classgui_1_1_audio_app_1ab2f77026938c61a20835c42b7365db99" kind="variable"><name>label_img_petit_logo</name></member>
+    <member refid="classgui_1_1_audio_app_1a0df05428a13de3c00ba415b7e98bce04" kind="variable"><name>explore_folder</name></member>
+    <member refid="classgui_1_1_audio_app_1a4742227ed83bdbd7542934e1152f704a" kind="variable"><name>create_playlist</name></member>
+    <member refid="classgui_1_1_audio_app_1afb5c2c0264f78fd4e4a8f360d0e7ed3b" kind="variable"><name>edit_metadata</name></member>
+    <member refid="classgui_1_1_audio_app_1addda7222abdcf1a05dd3a2c5bc4f072f" kind="variable"><name>play_playlist</name></member>
+    <member refid="classgui_1_1_audio_app_1aa65de8b0b35db7edd28c497abdda7d13" kind="variable"><name>btn_dark_mode</name></member>
+    <member refid="classgui_1_1_audio_app_1afe2e44b9195b88b63efe0b38313be179" kind="variable"><name>tailleListbox</name></member>
+    <member refid="classgui_1_1_audio_app_1ae438654042f84ab0da7e46eabce4b712" kind="variable"><name>cover_tk</name></member>
+    <member refid="classgui_1_1_audio_app_1a9903f1c822725098b5c51855d47b4fb5" kind="variable"><name>playlist_vars</name></member>
+    <member refid="classgui_1_1_audio_app_1a24d7af4926927b7e8e90905fd5110867" kind="function"><name>__init__</name></member>
+    <member refid="classgui_1_1_audio_app_1a9b9f311fa29a0f11cd1565935cb22535" kind="function"><name>load_icons</name></member>
+    <member refid="classgui_1_1_audio_app_1ad2ceb05940f2a636d65f8a05bc5e5cc2" kind="function"><name>style_button</name></member>
+    <member refid="classgui_1_1_audio_app_1a5268d25c95f120eedb279b07c1c8bf08" kind="function"><name>style_listbox</name></member>
+    <member refid="classgui_1_1_audio_app_1a409b83c5c11fd315d6ef28ec7ec8c8c0" kind="function"><name>show_lyrics_popup</name></member>
+    <member refid="classgui_1_1_audio_app_1a8eca88c298c2526f5e6ac7ae1132402f" kind="function"><name>build_interface_structure</name></member>
+    <member refid="classgui_1_1_audio_app_1aaef4818a89166cd4da5deb0103526b18" kind="function"><name>toggle_dark_mode</name></member>
+    <member refid="classgui_1_1_audio_app_1a597dc99de0d5e7ff782cbb48e13345b4" kind="function"><name>apply_theme</name></member>
+    <member refid="classgui_1_1_audio_app_1ad171dd5835ebff66c2d6263c6a7c50ee" kind="function"><name>direct_Goto</name></member>
+    <member refid="classgui_1_1_audio_app_1a9442e457149669bb3df06a380a41224e" kind="function"><name>explore_folder</name></member>
+    <member refid="classgui_1_1_audio_app_1a6720e910fb838fe7048b700682215db6" kind="function"><name>on_listbox_double</name></member>
+    <member refid="classgui_1_1_audio_app_1a461b68a0f2f700081de0ab88b7b93f2b" kind="function"><name>play_audio</name></member>
+    <member refid="classgui_1_1_audio_app_1af730fe5d1d8281a108868ae88e61a2bb" kind="function"><name>pause_resume</name></member>
+    <member refid="classgui_1_1_audio_app_1aceb276d034113c8f8bf73e153915a835" kind="function"><name>next_audio</name></member>
+    <member refid="classgui_1_1_audio_app_1ae4407772d2e64fa744032cb2043297c0" kind="function"><name>prev_audio</name></member>
+    <member refid="classgui_1_1_audio_app_1a151d6fecbe5d664fb602deb11c3aa6b3" kind="function"><name>show_audio_details</name></member>
+    <member refid="classgui_1_1_audio_app_1af3cd6a0a2dd1863ce51491d2faa2494c" kind="function"><name>edit_metadata</name></member>
+    <member refid="classgui_1_1_audio_app_1a1f62bf8a01e4863dc156e2d143cca0cf" kind="function"><name>extract_metadata</name></member>
+    <member refid="classgui_1_1_audio_app_1aaf079651ad4f710b3a1b91bcc64c6b0d" kind="function"><name>show_cover</name></member>
+    <member refid="classgui_1_1_audio_app_1ab5056b1f4892b2c59d4c3c01511cdcf7" kind="function"><name>check_search_from_top</name></member>
+    <member refid="classgui_1_1_audio_app_1a1ee91f8cce10eef9136f113c5eaf743e" kind="function"><name>check_search</name></member>
+    <member refid="classgui_1_1_audio_app_1a83b0d4b70227ca747c96f5e3b9ad6034" kind="function"><name>search_api_popup</name></member>
+    <member refid="classgui_1_1_audio_app_1aba6645959bcc4ed8ea1ec9f35a5e9594" kind="function"><name>create_playlist</name></member>
+    <member refid="classgui_1_1_audio_app_1ad3ddc397dc8fac325081610ae7163f3a" kind="function"><name>play_playlist</name></member>
+    <member refid="classgui_1_1_audio_app_1aa3ef16f42dceaa5bd1e35d36ea410525" kind="function"><name>open_playlist</name></member>
+    <member refid="classgui_1_1_audio_app_1ae3b40589f0f40b90a532e20240aaf108" kind="function"><name>return_full_list</name></member>
+    <member refid="classgui_1_1_audio_app_1a7aae987dd6565b3d9bdb0548e81ee4cf" kind="function"><name>truncate_name</name></member>
+    <member refid="classgui_1_1_audio_app_1a059caa26068bc79055fb6b5f301b4edc" kind="function"><name>verifier_et_couper_nom_Milieu</name></member>
+    <member refid="classgui_1_1_audio_app_1a52a757fce87750178c8a6b4bee18e58e" kind="function"><name>on_drop</name></member>
+    <member refid="classgui_1_1_audio_app_1adcfbaf22255c3ecfcbd5a54fb571e396" kind="function"><name>is_audio_file</name></member>
+  </compound>
+  <compound refid="classcli_1_1_console" kind="class"><name>cli::Console</name>
+    <member refid="classcli_1_1_console_1a6013697e1c1f91da825eee84da9117c3" kind="variable"><name>extraction</name></member>
+    <member refid="classcli_1_1_console_1aa4ddfed60b43a2130e41ceb886d2f82b" kind="variable"><name>explorer</name></member>
+    <member refid="classcli_1_1_console_1a3eba0a4853d52d4a06ea19febd949ac2" kind="variable"><name>playlist</name></member>
+    <member refid="classcli_1_1_console_1aaeefdd85b91843903a66d62f29667c18" kind="variable"><name>ecouter</name></member>
+    <member refid="classcli_1_1_console_1aefb6d7f4cd40575b0956d18a9cfa74cd" kind="variable"><name>fetcher</name></member>
+    <member refid="classcli_1_1_console_1aef6ffec76980474dac44eb08fea06990" kind="variable"><name>lecteur_playlist</name></member>
+    <member refid="classcli_1_1_console_1a84ecc7dca0b20b26d12fa87f9c6f7079" kind="function"><name>__init__</name></member>
+    <member refid="classcli_1_1_console_1a3f5d80640b58be7914cdc2e307123d2f" kind="function"><name>afficher_aide</name></member>
+    <member refid="classcli_1_1_console_1ace5563f2623f15b324f384982ccb8490" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="classecouter_audio_1_1_ecouter" kind="class"><name>ecouterAudio::Ecouter</name>
+    <member refid="classecouter_audio_1_1_ecouter_1a4cceee17f911f6edeb3d8076db69958d" kind="variable"><name>current_file</name></member>
+    <member refid="classecouter_audio_1_1_ecouter_1ac5287a08c9a2ba862f53bcd17fc4bdd4" kind="variable"><name>is_paused</name></member>
+    <member refid="classecouter_audio_1_1_ecouter_1a9ddd3ad2a1a77abe38bb1ff140a86f8b" kind="function"><name>__init__</name></member>
+    <member refid="classecouter_audio_1_1_ecouter_1a80f9cffc8058704978e33d4d2103ce13" kind="function"><name>lire_fichier_audio</name></member>
+    <member refid="classecouter_audio_1_1_ecouter_1ad276a5df960aa43d002cec838d4df459" kind="function"><name>lire_fichier_flac</name></member>
+    <member refid="classecouter_audio_1_1_ecouter_1afdd1ad5dacfab498cb95cc39b97cbe8c" kind="function"><name>lire_fichier_mp3</name></member>
+    <member refid="classecouter_audio_1_1_ecouter_1a18b2f08e710634230aad501e90c804e6" kind="function"><name>lire_tout_audio</name></member>
+    <member refid="classecouter_audio_1_1_ecouter_1a1a42ef5b9de1c7059e8a88dbc655c53d" kind="function"><name>pause</name></member>
+    <member refid="classecouter_audio_1_1_ecouter_1af89b9af90f55ca826c6a6413a5554346" kind="function"><name>resume</name></member>
+    <member refid="classecouter_audio_1_1_ecouter_1a0dd11d9660c91503e6fde9661c028967" kind="function"><name>stop</name></member>
+  </compound>
+  <compound refid="classecouter_playlist_1_1_ecouter_playlist" kind="class"><name>ecouterPlaylist::EcouterPlaylist</name>
+    <member refid="classecouter_playlist_1_1_ecouter_playlist_1a133b50e80eacff3ab9f89c18fadaa510" kind="variable"><name>explorer</name></member>
+    <member refid="classecouter_playlist_1_1_ecouter_playlist_1a5d7903485bad87b1360a17e648c1242f" kind="variable"><name>ecouter</name></member>
+    <member refid="classecouter_playlist_1_1_ecouter_playlist_1a7dc11a6755f078d2df87bb1d984aa460" kind="variable"><name>pistes</name></member>
+    <member refid="classecouter_playlist_1_1_ecouter_playlist_1ab0ed2bb0c391dc06ecb880a734dbe86e" kind="variable"><name>index_courant</name></member>
+    <member refid="classecouter_playlist_1_1_ecouter_playlist_1ab6f6ddd3b700193493e55b92b65924a2" kind="function"><name>__init__</name></member>
+    <member refid="classecouter_playlist_1_1_ecouter_playlist_1a71915fd7495b4e457a12ca67638c7c71" kind="function"><name>charger_playlist</name></member>
+    <member refid="classecouter_playlist_1_1_ecouter_playlist_1aa8c4a9f3035d5844786e9f6d6712d3d3" kind="function"><name>afficher_pistes</name></member>
+    <member refid="classecouter_playlist_1_1_ecouter_playlist_1aa2711b914e363700ec0c0b77136b7e04" kind="function"><name>jouer_courante</name></member>
+    <member refid="classecouter_playlist_1_1_ecouter_playlist_1a23936ef946d504fd7c939cc1651c4b8f" kind="function"><name>jouer_numero</name></member>
+    <member refid="classecouter_playlist_1_1_ecouter_playlist_1aa5cdc491286b460b85a698c491cc2d50" kind="function"><name>piste_suivante</name></member>
+    <member refid="classecouter_playlist_1_1_ecouter_playlist_1af84183daa1d13e5a18e11771fb5feb99" kind="function"><name>piste_precedente</name></member>
+  </compound>
+  <compound refid="classaudio_meta_edite_1_1_editer" kind="class"><name>audioMetaEdite::Editer</name>
+    <member refid="classaudio_meta_edite_1_1_editer_1a37618a5ad26d504b40af79f2c5a632b3" kind="function"><name>creation_meta_donnees</name></member>
+    <member refid="classaudio_meta_edite_1_1_editer_1a1dadfa3125aebffbad4654b3516f0846" kind="function"><name>afficher_et_modifier_metadata</name></member>
+    <member refid="classaudio_meta_edite_1_1_editer_1a604c5d4fba3b2a69627418f2ff381622" kind="function"><name>modify_mp3_cover</name></member>
+    <member refid="classaudio_meta_edite_1_1_editer_1a6b2d161bcc1a16e23cec11642bf355c5" kind="function"><name>_afficher_et_modifier_meta_mp3</name></member>
+    <member refid="classaudio_meta_edite_1_1_editer_1ab029cf202727fea9db9d238a9f00570e" kind="function"><name>_afficher_et_modifier_meta_flac</name></member>
+  </compound>
+  <compound refid="classexploration_dossier_1_1_explorer" kind="class"><name>explorationDossier::Explorer</name>
+    <member refid="classexploration_dossier_1_1_explorer_1a6aa4582c2a7cbd949505023624303744" kind="variable"><name>fichier_temp</name></member>
+    <member refid="classexploration_dossier_1_1_explorer_1a0d11007362409b14aabc15d6267e5aab" kind="variable"><name>chemin_python_project</name></member>
+    <member refid="classexploration_dossier_1_1_explorer_1aadd08657d77a4c2cf856f1471b047a01" kind="function"><name>__init__</name></member>
+    <member refid="classexploration_dossier_1_1_explorer_1aa4fb05f156e4760889b45a3198a2a94d" kind="function"><name>explorer_dossier_console</name></member>
+    <member refid="classexploration_dossier_1_1_explorer_1a4dc211d427e05f1a341353a67ccf7c7d" kind="function"><name>explorer_dossier_gui</name></member>
+    <member refid="classexploration_dossier_1_1_explorer_1a556ccdc9fa66dc54055f52f479f9adb8" kind="function"><name>explorer_Playlist</name></member>
+    <member refid="classexploration_dossier_1_1_explorer_1afe3219f6f4b5f770cde4f940097b92da" kind="function"><name>extraire_pistes_de_playlist</name></member>
+    <member refid="classexploration_dossier_1_1_explorer_1a05139873eb9314dea02c6b241c24fa96" kind="function"><name>explorer_dossier_interface</name></member>
+    <member refid="classexploration_dossier_1_1_explorer_1a3efc6c85fda42230ee1c5134e92a8939" kind="function"><name>_explorer_dossier_audio</name></member>
+  </compound>
+  <compound refid="classaudio_tag_extraction_1_1_extraction" kind="class"><name>audioTagExtraction::Extraction</name>
+    <member refid="classaudio_tag_extraction_1_1_extraction_1ad552289812c88c5edb482d2ef06f3b67" kind="function"><name>convertir_seconds_en_minutes_secondes</name></member>
+    <member refid="classaudio_tag_extraction_1_1_extraction_1ab74332c3a2ec556ab001f16c9512567b" kind="function"><name>extraction_et_afficher_tag</name></member>
+    <member refid="classaudio_tag_extraction_1_1_extraction_1aa0235c7c1e21856650e585aed9f7ec5c" kind="function"><name>afficher_tags_console</name></member>
+  </compound>
+  <compound refid="classfetcher_1_1_fetcher" kind="class"><name>fetcher::Fetcher</name>
+    <member refid="classfetcher_1_1_fetcher_1a78a8c10954d25cb748aaa3bc6c57b650" kind="variable"><name>client_id</name></member>
+    <member refid="classfetcher_1_1_fetcher_1a1497386a2667ffcb28b00ac8f4f023ad" kind="variable"><name>jamendo_url</name></member>
+    <member refid="classfetcher_1_1_fetcher_1a8b780ccdaeb6fb4baa64b325496a8630" kind="variable"><name>mb_url</name></member>
+    <member refid="classfetcher_1_1_fetcher_1af43d806944ce8c0b4cbf38f1544636a7" kind="variable"><name>headers</name></member>
+    <member refid="classfetcher_1_1_fetcher_1ad8a4e66aa0e974633e2815fa276117ce" kind="variable"><name>cover_url</name></member>
+    <member refid="classfetcher_1_1_fetcher_1a921d8a12da82208d288b90c81bd510bf" kind="function"><name>__init__</name></member>
+    <member refid="classfetcher_1_1_fetcher_1a9e620aff4a0e35da04af77285bb6af52" kind="function"><name>search_recordings</name></member>
+    <member refid="classfetcher_1_1_fetcher_1a626d59f305543703cb2ea8aca7a7b630" kind="function"><name>_search_jamendo</name></member>
+    <member refid="classfetcher_1_1_fetcher_1a7b6fc1cbde7e96a2510286aa6e20279a" kind="function"><name>_normalize</name></member>
+    <member refid="classfetcher_1_1_fetcher_1ae4a2b7762552a42356f51d594ea74aa4" kind="function"><name>_search_artist_mb</name></member>
+  </compound>
+  <compound refid="classlyrics__fetcher_1_1_lyrics_fetcher" kind="class"><name>lyrics_fetcher::LyricsFetcher</name>
+    <member refid="classlyrics__fetcher_1_1_lyrics_fetcher_1a95693f980c36acbe00216c6209414bb2" kind="variable"><name>timeout</name></member>
+    <member refid="classlyrics__fetcher_1_1_lyrics_fetcher_1a5af39257c78a190fb1c6f5a4e8c815e2" kind="function"><name>__init__</name></member>
+    <member refid="classlyrics__fetcher_1_1_lyrics_fetcher_1af20c855d6fdbea292423059384fb3d70" kind="function"><name>get_lyrics</name></member>
+    <member refid="classlyrics__fetcher_1_1_lyrics_fetcher_1a361f1aad04b8d0b598f1e9a631dd99f0" kind="function"><name>_fetch_from_lrclib</name></member>
+  </compound>
+  <compound refid="classconstitution_playlist_1_1_playlist" kind="class"><name>constitutionPlaylist::Playlist</name>
+    <member refid="classconstitution_playlist_1_1_playlist_1a5f871ed8c5e14ed56b05e431ebc065e3" kind="variable"><name>dossier</name></member>
+    <member refid="classconstitution_playlist_1_1_playlist_1a685283e6469be970a02e63d3d1a69263" kind="variable"><name>path_temp</name></member>
+    <member refid="classconstitution_playlist_1_1_playlist_1aefe28f1d4f55e1f030324155bfa24a86" kind="function"><name>__init__</name></member>
+    <member refid="classconstitution_playlist_1_1_playlist_1aab3a501ff2bd2922608111a6a321caa3" kind="function"><name>creer_un_fichier_xspf</name></member>
+    <member refid="classconstitution_playlist_1_1_playlist_1a0e547714dace4b6270d71432070a091a" kind="function"><name>creer_fichier_xspf_nom</name></member>
+    <member refid="classconstitution_playlist_1_1_playlist_1a6290ef49f85c95ee44e72e099187967f" kind="function"><name>ecriture_fichier_xspf</name></member>
+  </compound>
+  <compound refid="namespaceaudio_meta_edite" kind="namespace"><name>audioMetaEdite</name>
+  </compound>
+  <compound refid="namespaceaudio_tag_extraction" kind="namespace"><name>audioTagExtraction</name>
+  </compound>
+  <compound refid="namespacecli" kind="namespace"><name>cli</name>
+    <member refid="namespacecli_1a1c9664bda09262f4cf8571ba5a91c7f3" kind="variable"><name>console</name></member>
+  </compound>
+  <compound refid="namespaceconstitution_playlist" kind="namespace"><name>constitutionPlaylist</name>
+  </compound>
+  <compound refid="namespaceecouter_audio" kind="namespace"><name>ecouterAudio</name>
+  </compound>
+  <compound refid="namespaceecouter_playlist" kind="namespace"><name>ecouterPlaylist</name>
+  </compound>
+  <compound refid="namespaceexploration_dossier" kind="namespace"><name>explorationDossier</name>
+  </compound>
+  <compound refid="namespacefetcher" kind="namespace"><name>fetcher</name>
+  </compound>
+  <compound refid="namespacegui" kind="namespace"><name>gui</name>
+    <member refid="namespacegui_1a82aea24dec4e3d438a7b92b096db9523" kind="variable"><name>root</name></member>
+    <member refid="namespacegui_1af263120175dda5fb802cbe5ce9490b93" kind="variable"><name>app</name></member>
+    <member refid="namespacegui_1a0aaae67a30e6f074588fad072a4424b7" kind="function"><name>style_button</name></member>
+    <member refid="namespacegui_1ac8d2e9b1055c92bd0285eea88a836491" kind="function"><name>style_listbox</name></member>
+  </compound>
+  <compound refid="namespacelyrics__fetcher" kind="namespace"><name>lyrics_fetcher</name>
+    <member refid="namespacelyrics__fetcher_1a84007b6de624e56d72292a8b3093b035" kind="variable"><name>fetcher</name></member>
+    <member refid="namespacelyrics__fetcher_1af877f7dec9bcd7a362384d0b9cbdaf53" kind="variable"><name>lyrics</name></member>
+  </compound>
+  <compound refid="audio_meta_edite_8py" kind="file"><name>audioMetaEdite.py</name>
+  </compound>
+  <compound refid="audio_tag_extraction_8py" kind="file"><name>audioTagExtraction.py</name>
+  </compound>
+  <compound refid="cli_8py" kind="file"><name>cli.py</name>
+  </compound>
+  <compound refid="constitution_playlist_8py" kind="file"><name>constitutionPlaylist.py</name>
+  </compound>
+  <compound refid="ecouter_audio_8py" kind="file"><name>ecouterAudio.py</name>
+  </compound>
+  <compound refid="ecouter_playlist_8py" kind="file"><name>ecouterPlaylist.py</name>
+  </compound>
+  <compound refid="exploration_dossier_8py" kind="file"><name>explorationDossier.py</name>
+  </compound>
+  <compound refid="fetcher_8py" kind="file"><name>fetcher.py</name>
+  </compound>
+  <compound refid="gui_8py" kind="file"><name>gui.py</name>
+  </compound>
+  <compound refid="lyrics__fetcher_8py" kind="file"><name>lyrics_fetcher.py</name>
+  </compound>
+</doxygenindex>

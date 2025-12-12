@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespaceaudio_tag_extraction" kind="namespace" language="Python">
+    <compoundname>audioTagExtraction</compoundname>
+    <innerclass refid="classaudio_tag_extraction_1_1_extraction" prot="public">audioTagExtraction::Extraction</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>@file audioTagExtraction.py
+@brief Module pour extraire et afficher les métadonnées des fichiers audio.
+
+Fonctionnalités principales :
+- Lecture des tags ID3 pour MP3
+- Lecture des métadonnées FLAC
+- Affichage de titre, artiste, album, genre, date et durée
+- Conversion automatique de la durée en minutes et secondes
+
+Utilisé par le GUI et le CLI pour analyser les fichiers audio.
+</verbatim> </para>
+    </detaileddescription>
+    <location file="audioTagExtraction.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

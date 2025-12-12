@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classlyrics__fetcher_1_1_lyrics_fetcher" kind="class" language="Python" prot="public">
+    <compoundname>lyrics_fetcher::LyricsFetcher</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classlyrics__fetcher_1_1_lyrics_fetcher_1a95693f980c36acbe00216c6209414bb2" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>lyrics_fetcher.LyricsFetcher::timeout</definition>
+        <argsstring></argsstring>
+        <name>timeout</name>
+        <qualifiedname>lyrics_fetcher.LyricsFetcher.timeout</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lyrics_fetcher.py" line="27" column="1" bodyfile="lyrics_fetcher.py" bodystart="27" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classlyrics__fetcher_1_1_lyrics_fetcher_1a5af39257c78a190fb1c6f5a4e8c815e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>lyrics_fetcher.LyricsFetcher.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>lyrics_fetcher.LyricsFetcher.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Initialise le fetcher</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lyrics_fetcher.py" line="24" column="1" bodyfile="lyrics_fetcher.py" bodystart="24" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classlyrics__fetcher_1_1_lyrics_fetcher_1af20c855d6fdbea292423059384fb3d70" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>lyrics_fetcher.LyricsFetcher.get_lyrics</definition>
+        <argsstring>(self, artist, title)</argsstring>
+        <name>get_lyrics</name>
+        <qualifiedname>lyrics_fetcher.LyricsFetcher.get_lyrics</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>artist</type>
+          <defname>artist</defname>
+        </param>
+        <param>
+          <type>title</type>
+          <defname>title</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Récupère les paroles complètes
+
+Args:
+    artist: Nom de l&apos;artiste
+    title: Titre de la chanson
+
+Returns:
+    str: Paroles complètes de la chanson ou message d&apos;erreur
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lyrics_fetcher.py" line="69" column="1" bodyfile="lyrics_fetcher.py" bodystart="69" bodyend="103"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classlyrics__fetcher_1_1_lyrics_fetcher_1a361f1aad04b8d0b598f1e9a631dd99f0" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>lyrics_fetcher.LyricsFetcher._fetch_from_lrclib</definition>
+        <argsstring>(self, artist, title)</argsstring>
+        <name>_fetch_from_lrclib</name>
+        <qualifiedname>lyrics_fetcher.LyricsFetcher._fetch_from_lrclib</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>artist</type>
+          <defname>artist</defname>
+        </param>
+        <param>
+          <type>title</type>
+          <defname>title</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Récupère les paroles depuis LRCLIB API</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lyrics_fetcher.py" line="29" column="1" bodyfile="lyrics_fetcher.py" bodystart="29" bodyend="68"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Classe pour récupérer les paroles avec LRCLIB API (sans cache)
+</verbatim> </para>
+    </detaileddescription>
+    <location file="lyrics_fetcher.py" line="19" column="1" bodyfile="lyrics_fetcher.py" bodystart="19" bodyend="103"/>
+    <listofallmembers>
+      <member refid="classlyrics__fetcher_1_1_lyrics_fetcher_1a5af39257c78a190fb1c6f5a4e8c815e2" prot="public" virt="non-virtual"><scope>lyrics_fetcher::LyricsFetcher</scope><name>__init__</name></member>
+      <member refid="classlyrics__fetcher_1_1_lyrics_fetcher_1a361f1aad04b8d0b598f1e9a631dd99f0" prot="protected" virt="non-virtual"><scope>lyrics_fetcher::LyricsFetcher</scope><name>_fetch_from_lrclib</name></member>
+      <member refid="classlyrics__fetcher_1_1_lyrics_fetcher_1af20c855d6fdbea292423059384fb3d70" prot="public" virt="non-virtual"><scope>lyrics_fetcher::LyricsFetcher</scope><name>get_lyrics</name></member>
+      <member refid="classlyrics__fetcher_1_1_lyrics_fetcher_1a95693f980c36acbe00216c6209414bb2" prot="public" virt="non-virtual"><scope>lyrics_fetcher::LyricsFetcher</scope><name>timeout</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

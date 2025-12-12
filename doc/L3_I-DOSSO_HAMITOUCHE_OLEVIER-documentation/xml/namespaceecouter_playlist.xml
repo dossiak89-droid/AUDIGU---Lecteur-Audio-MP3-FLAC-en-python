@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespaceecouter_playlist" kind="namespace" language="Python">
+    <compoundname>ecouterPlaylist</compoundname>
+    <innerclass refid="classecouter_playlist_1_1_ecouter_playlist" prot="public">ecouterPlaylist::EcouterPlaylist</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>@file ecouterPlaylist.py
+@brief Lecture simple d&apos;une playlist XSPF (version étudiante, POO).
+
+Cette classe permet :
+- de charger une playlist .xspf
+- de mémoriser la liste des pistes
+- de savoir quelle piste est en cours
+- de jouer la piste courante, la suivante, la précédente
+
+Elle s&apos;appuie sur :
+- Explorer : pour lire le fichier XSPF
+- Ecouter  : pour jouer les fichiers audio
+</verbatim> </para>
+    </detaileddescription>
+    <location file="ecouterPlaylist.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

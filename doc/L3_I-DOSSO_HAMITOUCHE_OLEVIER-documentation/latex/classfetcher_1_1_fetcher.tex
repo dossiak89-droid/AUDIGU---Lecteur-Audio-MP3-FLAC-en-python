@@ -1,0 +1,148 @@
+\doxysection{fetcher.\+Fetcher Class Reference}
+\hypertarget{classfetcher_1_1_fetcher}{}\label{classfetcher_1_1_fetcher}\index{fetcher.Fetcher@{fetcher.Fetcher}}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classfetcher_1_1_fetcher_a921d8a12da82208d288b90c81bd510bf}{\+\_\+\+\_\+init\+\_\+\+\_\+}} (self)
+\item 
+\mbox{\hyperlink{classfetcher_1_1_fetcher_a9e620aff4a0e35da04af77285bb6af52}{search\+\_\+recordings}} (self, query, search\+\_\+type="{}titre"{}, limit=10)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classfetcher_1_1_fetcher_a78a8c10954d25cb748aaa3bc6c57b650}\label{classfetcher_1_1_fetcher_a78a8c10954d25cb748aaa3bc6c57b650} 
+{\bfseries client\+\_\+id}
+\item 
+\Hypertarget{classfetcher_1_1_fetcher_a1497386a2667ffcb28b00ac8f4f023ad}\label{classfetcher_1_1_fetcher_a1497386a2667ffcb28b00ac8f4f023ad} 
+{\bfseries jamendo\+\_\+url}
+\item 
+\Hypertarget{classfetcher_1_1_fetcher_a8b780ccdaeb6fb4baa64b325496a8630}\label{classfetcher_1_1_fetcher_a8b780ccdaeb6fb4baa64b325496a8630} 
+{\bfseries mb\+\_\+url}
+\item 
+\Hypertarget{classfetcher_1_1_fetcher_af43d806944ce8c0b4cbf38f1544636a7}\label{classfetcher_1_1_fetcher_af43d806944ce8c0b4cbf38f1544636a7} 
+{\bfseries headers}
+\item 
+\Hypertarget{classfetcher_1_1_fetcher_ad8a4e66aa0e974633e2815fa276117ce}\label{classfetcher_1_1_fetcher_ad8a4e66aa0e974633e2815fa276117ce} 
+{\bfseries cover\+\_\+url}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classfetcher_1_1_fetcher_a626d59f305543703cb2ea8aca7a7b630}{\+\_\+search\+\_\+jamendo}} (self, query, limit)
+\item 
+\mbox{\hyperlink{classfetcher_1_1_fetcher_a7b6fc1cbde7e96a2510286aa6e20279a}{\+\_\+normalize}} (self, text)
+\item 
+\mbox{\hyperlink{classfetcher_1_1_fetcher_ae4a2b7762552a42356f51d594ea74aa4}{\+\_\+search\+\_\+artist\+\_\+mb}} (self, artist\+\_\+name, limit)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb}@class Fetcher
+@brief Classe centralisant les appels API (Jamendo + MusicBrainz)
+       et fournissant une interface unifiée de recherche musicale.
+
+La classe permet :
+- Recherche titre / album via Jamendo (avec audio MP3).
+- Recherche artiste via MusicBrainz (métadonnées + cover).
+- Chargement sécurisé du client_id Jamendo depuis .env.
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classfetcher_1_1_fetcher_a921d8a12da82208d288b90c81bd510bf}\label{classfetcher_1_1_fetcher_a921d8a12da82208d288b90c81bd510bf} 
+\index{fetcher.Fetcher@{fetcher.Fetcher}!\_\_init\_\_@{\_\_init\_\_}}
+\index{\_\_init\_\_@{\_\_init\_\_}!fetcher.Fetcher@{fetcher.Fetcher}}
+\doxysubsubsection{\texorpdfstring{\_\_init\_\_()}{\_\_init\_\_()}}
+{\footnotesize\ttfamily fetcher.\+Fetcher.\+\_\+\+\_\+init\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}@brief Constructeur : initialise l’objet Fetcher.
+
+- Charge JAMENDO_CLIENT_ID depuis .env pour sécuriser la clé.
+- Configure les URL des trois API :
+    * Jamendo
+    * MusicBrainz
+    * CoverArtArchive
+- Initialise l'en-tête HTTP obligatoire pour MusicBrainz.
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classfetcher_1_1_fetcher_a7b6fc1cbde7e96a2510286aa6e20279a}\label{classfetcher_1_1_fetcher_a7b6fc1cbde7e96a2510286aa6e20279a} 
+\index{fetcher.Fetcher@{fetcher.Fetcher}!\_normalize@{\_normalize}}
+\index{\_normalize@{\_normalize}!fetcher.Fetcher@{fetcher.Fetcher}}
+\doxysubsubsection{\texorpdfstring{\_normalize()}{\_normalize()}}
+{\footnotesize\ttfamily fetcher.\+Fetcher.\+\_\+normalize (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{text }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+\begin{DoxyVerb}@brief Normalise une chaîne de texte :
+       - supprime les accents
+       - convertit en minuscules
+
+@param text Chaîne à normaliser
+@return texte normalisé
+
+Utilisée pour améliorer la comparaison des artistes.
+\end{DoxyVerb}
+ \Hypertarget{classfetcher_1_1_fetcher_ae4a2b7762552a42356f51d594ea74aa4}\label{classfetcher_1_1_fetcher_ae4a2b7762552a42356f51d594ea74aa4} 
+\index{fetcher.Fetcher@{fetcher.Fetcher}!\_search\_artist\_mb@{\_search\_artist\_mb}}
+\index{\_search\_artist\_mb@{\_search\_artist\_mb}!fetcher.Fetcher@{fetcher.Fetcher}}
+\doxysubsubsection{\texorpdfstring{\_search\_artist\_mb()}{\_search\_artist\_mb()}}
+{\footnotesize\ttfamily fetcher.\+Fetcher.\+\_\+search\+\_\+artist\+\_\+mb (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{artist\+\_\+name,  }\item[{}]{limit }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+\begin{DoxyVerb}@brief Recherche d’enregistrements MusicBrainz selon un nom d’artiste.
+
+@param artist_name Nom de l’artiste recherché
+@param limit Nombre de résultats maximum
+
+@return Liste de métadonnées :
+    - Titre
+    - Artiste
+    - Album
+    - Genres (tags MB)
+    - Année
+    - Image (via CoverArtArchive)
+    - Audio = None (car MusicBrainz n’héberge pas d’audio)
+    - API = "MusicBrainz"
+\end{DoxyVerb}
+ \Hypertarget{classfetcher_1_1_fetcher_a626d59f305543703cb2ea8aca7a7b630}\label{classfetcher_1_1_fetcher_a626d59f305543703cb2ea8aca7a7b630} 
+\index{fetcher.Fetcher@{fetcher.Fetcher}!\_search\_jamendo@{\_search\_jamendo}}
+\index{\_search\_jamendo@{\_search\_jamendo}!fetcher.Fetcher@{fetcher.Fetcher}}
+\doxysubsubsection{\texorpdfstring{\_search\_jamendo()}{\_search\_jamendo()}}
+{\footnotesize\ttfamily fetcher.\+Fetcher.\+\_\+search\+\_\+jamendo (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{query,  }\item[{}]{limit }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+\begin{DoxyVerb}@brief Recherche musicale via Jamendo selon un titre ou album.
+
+@param query Texte recherché (titre ou album)
+@param limit Nombre maximum de résultats
+
+@return Liste de dictionnaires contenant :
+    - Titre, Artiste, Album
+    - Genres, Moods, Instruments
+    - Année, URL cover
+    - Lien MP3 (Audio)
+    - API = "Jamendo"
+
+Utilise l'endpoint : /v3.0/tracks
+\end{DoxyVerb}
+ \Hypertarget{classfetcher_1_1_fetcher_a9e620aff4a0e35da04af77285bb6af52}\label{classfetcher_1_1_fetcher_a9e620aff4a0e35da04af77285bb6af52} 
+\index{fetcher.Fetcher@{fetcher.Fetcher}!search\_recordings@{search\_recordings}}
+\index{search\_recordings@{search\_recordings}!fetcher.Fetcher@{fetcher.Fetcher}}
+\doxysubsubsection{\texorpdfstring{search\_recordings()}{search\_recordings()}}
+{\footnotesize\ttfamily fetcher.\+Fetcher.\+search\+\_\+recordings (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{query,  }\item[{}]{search\+\_\+type = {\ttfamily "{}titre"{}},  }\item[{}]{limit = {\ttfamily 10} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}@brief Point d’entrée unifié pour effectuer une recherche musicale.
+
+@param query Texte recherché
+@param search_type Type de recherche :
+        - "titre"   → Jamendo
+        - "album"   → Jamendo
+        - "artiste" → MusicBrainz
+@param limit Nombre maximum de résultats
+
+@return Liste normalisée de résultats provenant
+        soit de Jamendo, soit de MusicBrainz
+\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+fetcher.\+py\end{DoxyCompactItemize}

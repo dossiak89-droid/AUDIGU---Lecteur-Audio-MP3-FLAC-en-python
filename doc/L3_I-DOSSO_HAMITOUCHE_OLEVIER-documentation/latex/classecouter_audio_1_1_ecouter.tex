@@ -1,0 +1,101 @@
+\doxysection{ecouter\+Audio.\+Ecouter Class Reference}
+\hypertarget{classecouter_audio_1_1_ecouter}{}\label{classecouter_audio_1_1_ecouter}\index{ecouterAudio.Ecouter@{ecouterAudio.Ecouter}}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classecouter_audio_1_1_ecouter_a9ddd3ad2a1a77abe38bb1ff140a86f8b}\label{classecouter_audio_1_1_ecouter_a9ddd3ad2a1a77abe38bb1ff140a86f8b} 
+{\bfseries \+\_\+\+\_\+init\+\_\+\+\_\+} (self)
+\item 
+None \mbox{\hyperlink{classecouter_audio_1_1_ecouter_a80f9cffc8058704978e33d4d2103ce13}{lire\+\_\+fichier\+\_\+audio}} (self, str chemin\+\_\+fichier)
+\item 
+None \mbox{\hyperlink{classecouter_audio_1_1_ecouter_ad276a5df960aa43d002cec838d4df459}{lire\+\_\+fichier\+\_\+flac}} (self, str chemin\+\_\+fichier)
+\item 
+None \mbox{\hyperlink{classecouter_audio_1_1_ecouter_afdd1ad5dacfab498cb95cc39b97cbe8c}{lire\+\_\+fichier\+\_\+mp3}} (self, str chemin\+\_\+fichier)
+\item 
+None \mbox{\hyperlink{classecouter_audio_1_1_ecouter_a18b2f08e710634230aad501e90c804e6}{lire\+\_\+tout\+\_\+audio}} (self, str chemin)
+\item 
+\mbox{\hyperlink{classecouter_audio_1_1_ecouter_a1a42ef5b9de1c7059e8a88dbc655c53d}{pause}} (self)
+\item 
+\mbox{\hyperlink{classecouter_audio_1_1_ecouter_af89b9af90f55ca826c6a6413a5554346}{resume}} (self)
+\item 
+\mbox{\hyperlink{classecouter_audio_1_1_ecouter_a0dd11d9660c91503e6fde9661c028967}{stop}} (self)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classecouter_audio_1_1_ecouter_a4cceee17f911f6edeb3d8076db69958d}\label{classecouter_audio_1_1_ecouter_a4cceee17f911f6edeb3d8076db69958d} 
+{\bfseries current\+\_\+file}
+\item 
+\Hypertarget{classecouter_audio_1_1_ecouter_ac5287a08c9a2ba862f53bcd17fc4bdd4}\label{classecouter_audio_1_1_ecouter_ac5287a08c9a2ba862f53bcd17fc4bdd4} 
+{\bfseries is\+\_\+paused}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb}Classe pour lire des fichiers audio (MP3, FLAC) via pygame.
+Compatible CLI.
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classecouter_audio_1_1_ecouter_a80f9cffc8058704978e33d4d2103ce13}\label{classecouter_audio_1_1_ecouter_a80f9cffc8058704978e33d4d2103ce13} 
+\index{ecouterAudio.Ecouter@{ecouterAudio.Ecouter}!lire\_fichier\_audio@{lire\_fichier\_audio}}
+\index{lire\_fichier\_audio@{lire\_fichier\_audio}!ecouterAudio.Ecouter@{ecouterAudio.Ecouter}}
+\doxysubsubsection{\texorpdfstring{lire\_fichier\_audio()}{lire\_fichier\_audio()}}
+{\footnotesize\ttfamily  None ecouter\+Audio.\+Ecouter.\+lire\+\_\+fichier\+\_\+audio (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{str}]{chemin\+\_\+fichier }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Charge et lit un fichier audio avec pygame (NON bloquant).
+\end{DoxyVerb}
+ \Hypertarget{classecouter_audio_1_1_ecouter_ad276a5df960aa43d002cec838d4df459}\label{classecouter_audio_1_1_ecouter_ad276a5df960aa43d002cec838d4df459} 
+\index{ecouterAudio.Ecouter@{ecouterAudio.Ecouter}!lire\_fichier\_flac@{lire\_fichier\_flac}}
+\index{lire\_fichier\_flac@{lire\_fichier\_flac}!ecouterAudio.Ecouter@{ecouterAudio.Ecouter}}
+\doxysubsubsection{\texorpdfstring{lire\_fichier\_flac()}{lire\_fichier\_flac()}}
+{\footnotesize\ttfamily  None ecouter\+Audio.\+Ecouter.\+lire\+\_\+fichier\+\_\+flac (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{str}]{chemin\+\_\+fichier }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Lit un fichier FLAC en le convertissant temporairement en WAV (NON bloquant).
+\end{DoxyVerb}
+ \Hypertarget{classecouter_audio_1_1_ecouter_afdd1ad5dacfab498cb95cc39b97cbe8c}\label{classecouter_audio_1_1_ecouter_afdd1ad5dacfab498cb95cc39b97cbe8c} 
+\index{ecouterAudio.Ecouter@{ecouterAudio.Ecouter}!lire\_fichier\_mp3@{lire\_fichier\_mp3}}
+\index{lire\_fichier\_mp3@{lire\_fichier\_mp3}!ecouterAudio.Ecouter@{ecouterAudio.Ecouter}}
+\doxysubsubsection{\texorpdfstring{lire\_fichier\_mp3()}{lire\_fichier\_mp3()}}
+{\footnotesize\ttfamily  None ecouter\+Audio.\+Ecouter.\+lire\+\_\+fichier\+\_\+mp3 (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{str}]{chemin\+\_\+fichier }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Lit un fichier MP3 (NON bloquant).
+\end{DoxyVerb}
+ \Hypertarget{classecouter_audio_1_1_ecouter_a18b2f08e710634230aad501e90c804e6}\label{classecouter_audio_1_1_ecouter_a18b2f08e710634230aad501e90c804e6} 
+\index{ecouterAudio.Ecouter@{ecouterAudio.Ecouter}!lire\_tout\_audio@{lire\_tout\_audio}}
+\index{lire\_tout\_audio@{lire\_tout\_audio}!ecouterAudio.Ecouter@{ecouterAudio.Ecouter}}
+\doxysubsubsection{\texorpdfstring{lire\_tout\_audio()}{lire\_tout\_audio()}}
+{\footnotesize\ttfamily  None ecouter\+Audio.\+Ecouter.\+lire\+\_\+tout\+\_\+audio (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{str}]{chemin }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Détermine le type de fichier audio et le lit (NON bloquant).
+\end{DoxyVerb}
+ \Hypertarget{classecouter_audio_1_1_ecouter_a1a42ef5b9de1c7059e8a88dbc655c53d}\label{classecouter_audio_1_1_ecouter_a1a42ef5b9de1c7059e8a88dbc655c53d} 
+\index{ecouterAudio.Ecouter@{ecouterAudio.Ecouter}!pause@{pause}}
+\index{pause@{pause}!ecouterAudio.Ecouter@{ecouterAudio.Ecouter}}
+\doxysubsubsection{\texorpdfstring{pause()}{pause()}}
+{\footnotesize\ttfamily ecouter\+Audio.\+Ecouter.\+pause (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Met la musique en pause.\end{DoxyVerb}
+ \Hypertarget{classecouter_audio_1_1_ecouter_af89b9af90f55ca826c6a6413a5554346}\label{classecouter_audio_1_1_ecouter_af89b9af90f55ca826c6a6413a5554346} 
+\index{ecouterAudio.Ecouter@{ecouterAudio.Ecouter}!resume@{resume}}
+\index{resume@{resume}!ecouterAudio.Ecouter@{ecouterAudio.Ecouter}}
+\doxysubsubsection{\texorpdfstring{resume()}{resume()}}
+{\footnotesize\ttfamily ecouter\+Audio.\+Ecouter.\+resume (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Reprend la lecture :
+- si on était en pause -> reprend là où on s'est arrêté
+- sinon, si on avait fait stop -> relit le fichier depuis le début
+\end{DoxyVerb}
+ \Hypertarget{classecouter_audio_1_1_ecouter_a0dd11d9660c91503e6fde9661c028967}\label{classecouter_audio_1_1_ecouter_a0dd11d9660c91503e6fde9661c028967} 
+\index{ecouterAudio.Ecouter@{ecouterAudio.Ecouter}!stop@{stop}}
+\index{stop@{stop}!ecouterAudio.Ecouter@{ecouterAudio.Ecouter}}
+\doxysubsubsection{\texorpdfstring{stop()}{stop()}}
+{\footnotesize\ttfamily ecouter\+Audio.\+Ecouter.\+stop (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Arrête complètement la lecture.\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+ecouter\+Audio.\+py\end{DoxyCompactItemize}

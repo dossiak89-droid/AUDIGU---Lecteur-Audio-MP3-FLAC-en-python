@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespacegui" kind="namespace" language="Python">
+    <compoundname>gui</compoundname>
+    <innerclass refid="classgui_1_1_audio_app" prot="public">gui::AudioApp</innerclass>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacegui_1a82aea24dec4e3d438a7b92b096db9523" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>gui.root</definition>
+        <argsstring></argsstring>
+        <name>root</name>
+        <qualifiedname>gui.root</qualifiedname>
+        <initializer>= TkinterDnD.Tk()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="1313" column="1" bodyfile="gui.py" bodystart="1313" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegui_1af263120175dda5fb802cbe5ce9490b93" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>gui.app</definition>
+        <argsstring></argsstring>
+        <name>app</name>
+        <qualifiedname>gui.app</qualifiedname>
+        <initializer>=  <ref refid="classgui_1_1_audio_app" kindref="compound">AudioApp</ref>(root)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="1314" column="1" bodyfile="gui.py" bodystart="1314" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespacegui_1a0aaae67a30e6f074588fad072a4424b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gui.style_button</definition>
+        <argsstring>(self, btn, bg_color=&quot;#3498DB&quot;, fg_color=&quot;white&quot;)</argsstring>
+        <name>style_button</name>
+        <qualifiedname>gui.style_button</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>btn</type>
+          <defname>btn</defname>
+        </param>
+        <param>
+          <type>bg_color</type>
+          <defname>bg_color</defname>
+          <defval>&quot;#3498DB&quot;</defval>
+        </param>
+        <param>
+          <type>fg_color</type>
+          <defname>fg_color</defname>
+          <defval>&quot;white&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="44" column="1" bodyfile="gui.py" bodystart="44" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacegui_1ac8d2e9b1055c92bd0285eea88a836491" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gui.style_listbox</definition>
+        <argsstring>(listbox)</argsstring>
+        <name>style_listbox</name>
+        <qualifiedname>gui.style_listbox</qualifiedname>
+        <param>
+          <type>listbox</type>
+          <defname>listbox</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="53" column="1" bodyfile="gui.py" bodystart="53" bodyend="56"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>AudioApp audio complète avec lecture, gestion de métadonnées et playlists.
+
+    AudioApp est une application qui permet :
+        - La lecture de fichiers audio MP3 et FLAC via pygame.
+        - L&apos;affichage et la modification des métadonnées (titre, artiste, album, genre, année, commentaire, cover).
+        - L&apos;affichage de la couverture associée à la musique.
+        - La création et l&apos;ouverture de playlists au format XSPF.
+        - La recherche locale dans les fichiers audio et la recherche via API externe (Fetcher).
+        - La navigation audio (précédent/suivant) et contrôle lecture/pause.
+lecture audio, métadonnées, playlists, recherche locale et API.
+</verbatim> </para>
+    </detaileddescription>
+    <location file="gui.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

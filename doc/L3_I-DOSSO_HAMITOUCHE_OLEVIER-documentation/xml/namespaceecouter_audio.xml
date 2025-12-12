@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespaceecouter_audio" kind="namespace" language="Python">
+    <compoundname>ecouterAudio</compoundname>
+    <innerclass refid="classecouter_audio_1_1_ecouter" prot="public">ecouterAudio::Ecouter</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Lecture des fichiers audio (MP3, FLAC) via Pygame et Pydub.
+</verbatim> </para>
+    </detaileddescription>
+    <location file="ecouterAudio.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

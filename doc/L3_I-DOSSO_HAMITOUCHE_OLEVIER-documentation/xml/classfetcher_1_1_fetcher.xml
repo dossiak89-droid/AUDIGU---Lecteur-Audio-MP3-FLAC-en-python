@@ -1,0 +1,291 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classfetcher_1_1_fetcher" kind="class" language="Python" prot="public">
+    <compoundname>fetcher::Fetcher</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classfetcher_1_1_fetcher_1a78a8c10954d25cb748aaa3bc6c57b650" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>fetcher.Fetcher::client_id</definition>
+        <argsstring></argsstring>
+        <name>client_id</name>
+        <qualifiedname>fetcher.Fetcher.client_id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="fetcher.py" line="46" column="1" bodyfile="fetcher.py" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classfetcher_1_1_fetcher_1a1497386a2667ffcb28b00ac8f4f023ad" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>fetcher.Fetcher::jamendo_url</definition>
+        <argsstring></argsstring>
+        <name>jamendo_url</name>
+        <qualifiedname>fetcher.Fetcher.jamendo_url</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="fetcher.py" line="49" column="1" bodyfile="fetcher.py" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classfetcher_1_1_fetcher_1a8b780ccdaeb6fb4baa64b325496a8630" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>fetcher.Fetcher::mb_url</definition>
+        <argsstring></argsstring>
+        <name>mb_url</name>
+        <qualifiedname>fetcher.Fetcher.mb_url</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="fetcher.py" line="52" column="1" bodyfile="fetcher.py" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classfetcher_1_1_fetcher_1af43d806944ce8c0b4cbf38f1544636a7" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>fetcher.Fetcher::headers</definition>
+        <argsstring></argsstring>
+        <name>headers</name>
+        <qualifiedname>fetcher.Fetcher.headers</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="fetcher.py" line="53" column="1" bodyfile="fetcher.py" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classfetcher_1_1_fetcher_1ad8a4e66aa0e974633e2815fa276117ce" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>fetcher.Fetcher::cover_url</definition>
+        <argsstring></argsstring>
+        <name>cover_url</name>
+        <qualifiedname>fetcher.Fetcher.cover_url</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="fetcher.py" line="58" column="1" bodyfile="fetcher.py" bodystart="58" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classfetcher_1_1_fetcher_1a921d8a12da82208d288b90c81bd510bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>fetcher.Fetcher.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>fetcher.Fetcher.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>@brief Constructeur : initialise l’objet Fetcher.
+
+- Charge JAMENDO_CLIENT_ID depuis .env pour sécuriser la clé.
+- Configure les URL des trois API :
+    * Jamendo
+    * MusicBrainz
+    * CoverArtArchive
+- Initialise l&apos;en-tête HTTP obligatoire pour MusicBrainz.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="fetcher.py" line="27" column="1" bodyfile="fetcher.py" bodystart="27" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classfetcher_1_1_fetcher_1a9e620aff4a0e35da04af77285bb6af52" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>fetcher.Fetcher.search_recordings</definition>
+        <argsstring>(self, query, search_type=&quot;titre&quot;, limit=10)</argsstring>
+        <name>search_recordings</name>
+        <qualifiedname>fetcher.Fetcher.search_recordings</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>query</type>
+          <defname>query</defname>
+        </param>
+        <param>
+          <type>search_type</type>
+          <defname>search_type</defname>
+          <defval>&quot;titre&quot;</defval>
+        </param>
+        <param>
+          <type>limit</type>
+          <defname>limit</defname>
+          <defval>10</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>@brief Point d’entrée unifié pour effectuer une recherche musicale.
+
+@param query Texte recherché
+@param search_type Type de recherche :
+        - &quot;titre&quot;   → Jamendo
+        - &quot;album&quot;   → Jamendo
+        - &quot;artiste&quot; → MusicBrainz
+@param limit Nombre maximum de résultats
+
+@return Liste normalisée de résultats provenant
+        soit de Jamendo, soit de MusicBrainz
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="fetcher.py" line="217" column="1" bodyfile="fetcher.py" bodystart="217" bodyend="236"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classfetcher_1_1_fetcher_1a626d59f305543703cb2ea8aca7a7b630" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>fetcher.Fetcher._search_jamendo</definition>
+        <argsstring>(self, query, limit)</argsstring>
+        <name>_search_jamendo</name>
+        <qualifiedname>fetcher.Fetcher._search_jamendo</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>query</type>
+          <defname>query</defname>
+        </param>
+        <param>
+          <type>limit</type>
+          <defname>limit</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>@brief Recherche musicale via Jamendo selon un titre ou album.
+
+@param query Texte recherché (titre ou album)
+@param limit Nombre maximum de résultats
+
+@return Liste de dictionnaires contenant :
+    - Titre, Artiste, Album
+    - Genres, Moods, Instruments
+    - Année, URL cover
+    - Lien MP3 (Audio)
+    - API = &quot;Jamendo&quot;
+
+Utilise l&apos;endpoint : /v3.0/tracks
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="fetcher.py" line="63" column="1" bodyfile="fetcher.py" bodystart="63" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="classfetcher_1_1_fetcher_1a7b6fc1cbde7e96a2510286aa6e20279a" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>fetcher.Fetcher._normalize</definition>
+        <argsstring>(self, text)</argsstring>
+        <name>_normalize</name>
+        <qualifiedname>fetcher.Fetcher._normalize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>text</type>
+          <defname>text</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>@brief Normalise une chaîne de texte :
+       - supprime les accents
+       - convertit en minuscules
+
+@param text Chaîne à normaliser
+@return texte normalisé
+
+Utilisée pour améliorer la comparaison des artistes.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="fetcher.py" line="119" column="1" bodyfile="fetcher.py" bodystart="119" bodyend="135"/>
+      </memberdef>
+      <memberdef kind="function" id="classfetcher_1_1_fetcher_1ae4a2b7762552a42356f51d594ea74aa4" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>fetcher.Fetcher._search_artist_mb</definition>
+        <argsstring>(self, artist_name, limit)</argsstring>
+        <name>_search_artist_mb</name>
+        <qualifiedname>fetcher.Fetcher._search_artist_mb</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>artist_name</type>
+          <defname>artist_name</defname>
+        </param>
+        <param>
+          <type>limit</type>
+          <defname>limit</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>@brief Recherche d’enregistrements MusicBrainz selon un nom d’artiste.
+
+@param artist_name Nom de l’artiste recherché
+@param limit Nombre de résultats maximum
+
+@return Liste de métadonnées :
+    - Titre
+    - Artiste
+    - Album
+    - Genres (tags MB)
+    - Année
+    - Image (via CoverArtArchive)
+    - Audio = None (car MusicBrainz n’héberge pas d’audio)
+    - API = &quot;MusicBrainz&quot;
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="fetcher.py" line="138" column="1" bodyfile="fetcher.py" bodystart="138" bodyend="214"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>@class Fetcher
+@brief Classe centralisant les appels API (Jamendo + MusicBrainz)
+       et fournissant une interface unifiée de recherche musicale.
+
+La classe permet :
+- Recherche titre / album via Jamendo (avec audio MP3).
+- Recherche artiste via MusicBrainz (métadonnées + cover).
+- Chargement sécurisé du client_id Jamendo depuis .env.
+</verbatim> </para>
+    </detaileddescription>
+    <location file="fetcher.py" line="16" column="1" bodyfile="fetcher.py" bodystart="16" bodyend="236"/>
+    <listofallmembers>
+      <member refid="classfetcher_1_1_fetcher_1a921d8a12da82208d288b90c81bd510bf" prot="public" virt="non-virtual"><scope>fetcher::Fetcher</scope><name>__init__</name></member>
+      <member refid="classfetcher_1_1_fetcher_1a7b6fc1cbde7e96a2510286aa6e20279a" prot="protected" virt="non-virtual"><scope>fetcher::Fetcher</scope><name>_normalize</name></member>
+      <member refid="classfetcher_1_1_fetcher_1ae4a2b7762552a42356f51d594ea74aa4" prot="protected" virt="non-virtual"><scope>fetcher::Fetcher</scope><name>_search_artist_mb</name></member>
+      <member refid="classfetcher_1_1_fetcher_1a626d59f305543703cb2ea8aca7a7b630" prot="protected" virt="non-virtual"><scope>fetcher::Fetcher</scope><name>_search_jamendo</name></member>
+      <member refid="classfetcher_1_1_fetcher_1a78a8c10954d25cb748aaa3bc6c57b650" prot="public" virt="non-virtual"><scope>fetcher::Fetcher</scope><name>client_id</name></member>
+      <member refid="classfetcher_1_1_fetcher_1ad8a4e66aa0e974633e2815fa276117ce" prot="public" virt="non-virtual"><scope>fetcher::Fetcher</scope><name>cover_url</name></member>
+      <member refid="classfetcher_1_1_fetcher_1af43d806944ce8c0b4cbf38f1544636a7" prot="public" virt="non-virtual"><scope>fetcher::Fetcher</scope><name>headers</name></member>
+      <member refid="classfetcher_1_1_fetcher_1a1497386a2667ffcb28b00ac8f4f023ad" prot="public" virt="non-virtual"><scope>fetcher::Fetcher</scope><name>jamendo_url</name></member>
+      <member refid="classfetcher_1_1_fetcher_1a8b780ccdaeb6fb4baa64b325496a8630" prot="public" virt="non-virtual"><scope>fetcher::Fetcher</scope><name>mb_url</name></member>
+      <member refid="classfetcher_1_1_fetcher_1a9e620aff4a0e35da04af77285bb6af52" prot="public" virt="non-virtual"><scope>fetcher::Fetcher</scope><name>search_recordings</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

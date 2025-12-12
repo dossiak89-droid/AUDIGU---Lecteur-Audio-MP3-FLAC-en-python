@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classcli_1_1_console" kind="class" language="Python" prot="public">
+    <compoundname>cli::Console</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classcli_1_1_console_1a6013697e1c1f91da825eee84da9117c3" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>cli.Console::extraction</definition>
+        <argsstring></argsstring>
+        <name>extraction</name>
+        <qualifiedname>cli.Console.extraction</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cli.py" line="40" column="1" bodyfile="cli.py" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcli_1_1_console_1aa4ddfed60b43a2130e41ceb886d2f82b" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>cli.Console::explorer</definition>
+        <argsstring></argsstring>
+        <name>explorer</name>
+        <qualifiedname>cli.Console.explorer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cli.py" line="41" column="1" bodyfile="cli.py" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcli_1_1_console_1a3eba0a4853d52d4a06ea19febd949ac2" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>cli.Console::playlist</definition>
+        <argsstring></argsstring>
+        <name>playlist</name>
+        <qualifiedname>cli.Console.playlist</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cli.py" line="42" column="1" bodyfile="cli.py" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcli_1_1_console_1aaeefdd85b91843903a66d62f29667c18" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>cli.Console::ecouter</definition>
+        <argsstring></argsstring>
+        <name>ecouter</name>
+        <qualifiedname>cli.Console.ecouter</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cli.py" line="43" column="1" bodyfile="cli.py" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcli_1_1_console_1aefb6d7f4cd40575b0956d18a9cfa74cd" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>cli.Console::fetcher</definition>
+        <argsstring></argsstring>
+        <name>fetcher</name>
+        <qualifiedname>cli.Console.fetcher</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cli.py" line="44" column="1" bodyfile="cli.py" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcli_1_1_console_1aef6ffec76980474dac44eb08fea06990" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>cli.Console::lecteur_playlist</definition>
+        <argsstring></argsstring>
+        <name>lecteur_playlist</name>
+        <qualifiedname>cli.Console.lecteur_playlist</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cli.py" line="45" column="1" bodyfile="cli.py" bodystart="45" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcli_1_1_console_1a84ecc7dca0b20b26d12fa87f9c6f7079" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>cli.Console.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>cli.Console.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cli.py" line="39" column="1" bodyfile="cli.py" bodystart="39" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classcli_1_1_console_1a3f5d80640b58be7914cdc2e307123d2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>cli.Console.afficher_aide</definition>
+        <argsstring>(self)</argsstring>
+        <name>afficher_aide</name>
+        <qualifiedname>cli.Console.afficher_aide</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cli.py" line="48" column="1" bodyfile="cli.py" bodystart="48" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classcli_1_1_console_1ace5563f2623f15b324f384982ccb8490" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>cli.Console.main</definition>
+        <argsstring>(self)</argsstring>
+        <name>main</name>
+        <qualifiedname>cli.Console.main</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cli.py" line="60" column="1" bodyfile="cli.py" bodystart="60" bodyend="182"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="cli.py" line="38" column="1" bodyfile="cli.py" bodystart="38" bodyend="182"/>
+    <listofallmembers>
+      <member refid="classcli_1_1_console_1a84ecc7dca0b20b26d12fa87f9c6f7079" prot="public" virt="non-virtual"><scope>cli::Console</scope><name>__init__</name></member>
+      <member refid="classcli_1_1_console_1a3f5d80640b58be7914cdc2e307123d2f" prot="public" virt="non-virtual"><scope>cli::Console</scope><name>afficher_aide</name></member>
+      <member refid="classcli_1_1_console_1aaeefdd85b91843903a66d62f29667c18" prot="public" virt="non-virtual"><scope>cli::Console</scope><name>ecouter</name></member>
+      <member refid="classcli_1_1_console_1aa4ddfed60b43a2130e41ceb886d2f82b" prot="public" virt="non-virtual"><scope>cli::Console</scope><name>explorer</name></member>
+      <member refid="classcli_1_1_console_1a6013697e1c1f91da825eee84da9117c3" prot="public" virt="non-virtual"><scope>cli::Console</scope><name>extraction</name></member>
+      <member refid="classcli_1_1_console_1aefb6d7f4cd40575b0956d18a9cfa74cd" prot="public" virt="non-virtual"><scope>cli::Console</scope><name>fetcher</name></member>
+      <member refid="classcli_1_1_console_1aef6ffec76980474dac44eb08fea06990" prot="public" virt="non-virtual"><scope>cli::Console</scope><name>lecteur_playlist</name></member>
+      <member refid="classcli_1_1_console_1ace5563f2623f15b324f384982ccb8490" prot="public" virt="non-virtual"><scope>cli::Console</scope><name>main</name></member>
+      <member refid="classcli_1_1_console_1a3eba0a4853d52d4a06ea19febd949ac2" prot="public" virt="non-virtual"><scope>cli::Console</scope><name>playlist</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classconstitution_playlist_1_1_playlist" kind="class" language="Python" prot="public">
+    <compoundname>constitutionPlaylist::Playlist</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classconstitution_playlist_1_1_playlist_1a5f871ed8c5e14ed56b05e431ebc065e3" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>constitutionPlaylist.Playlist::dossier</definition>
+        <argsstring></argsstring>
+        <name>dossier</name>
+        <qualifiedname>constitutionPlaylist.Playlist.dossier</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="constitutionPlaylist.py" line="35" column="1" bodyfile="constitutionPlaylist.py" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classconstitution_playlist_1_1_playlist_1a685283e6469be970a02e63d3d1a69263" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>constitutionPlaylist.Playlist::path_temp</definition>
+        <argsstring></argsstring>
+        <name>path_temp</name>
+        <qualifiedname>constitutionPlaylist.Playlist.path_temp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="constitutionPlaylist.py" line="39" column="1" bodyfile="constitutionPlaylist.py" bodystart="39" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classconstitution_playlist_1_1_playlist_1aefe28f1d4f55e1f030324155bfa24a86" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>constitutionPlaylist.Playlist.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>constitutionPlaylist.Playlist.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Initialisation des dossiers nécessaires pour les playlists et fichiers temporaires.</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="constitutionPlaylist.py" line="33" column="1" bodyfile="constitutionPlaylist.py" bodystart="33" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classconstitution_playlist_1_1_playlist_1aab3a501ff2bd2922608111a6a321caa3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str constitutionPlaylist.Playlist.creer_un_fichier_xspf</definition>
+        <argsstring>(self)</argsstring>
+        <name>creer_un_fichier_xspf</name>
+        <qualifiedname>constitutionPlaylist.Playlist.creer_un_fichier_xspf</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Crée un fichier XSPF par défaut et retourne son chemin.</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="constitutionPlaylist.py" line="41" column="1" bodyfile="constitutionPlaylist.py" bodystart="41" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="classconstitution_playlist_1_1_playlist_1a0e547714dace4b6270d71432070a091a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str constitutionPlaylist.Playlist.creer_fichier_xspf_nom</definition>
+        <argsstring>(self, str fichier_name)</argsstring>
+        <name>creer_fichier_xspf_nom</name>
+        <qualifiedname>constitutionPlaylist.Playlist.creer_fichier_xspf_nom</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>fichier_name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Crée un fichier XSPF avec un nom spécifié et retourne son chemin.</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="constitutionPlaylist.py" line="53" column="1" bodyfile="constitutionPlaylist.py" bodystart="53" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="classconstitution_playlist_1_1_playlist_1a6290ef49f85c95ee44e72e099187967f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>constitutionPlaylist.Playlist.ecriture_fichier_xspf</definition>
+        <argsstring>(self, str dossier_music, str out_fichier_nom=None)</argsstring>
+        <name>ecriture_fichier_xspf</name>
+        <qualifiedname>constitutionPlaylist.Playlist.ecriture_fichier_xspf</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>dossier_music</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>out_fichier_nom</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Écrit les informations d&apos;une playlist dans un fichier XSPF.
+
+Paramètres:
+    dossier_music : str : chemin du dossier contenant les fichiers musicaux
+    out_fichier_nom : str : nom du fichier de sortie XSPF (optionnel)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="constitutionPlaylist.py" line="66" column="1" bodyfile="constitutionPlaylist.py" bodystart="66" bodyend="112"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Classe pour créer et écrire des fichiers de playlists au format XSPF.
+</verbatim> </para>
+    </detaileddescription>
+    <location file="constitutionPlaylist.py" line="28" column="1" bodyfile="constitutionPlaylist.py" bodystart="28" bodyend="112"/>
+    <listofallmembers>
+      <member refid="classconstitution_playlist_1_1_playlist_1aefe28f1d4f55e1f030324155bfa24a86" prot="public" virt="non-virtual"><scope>constitutionPlaylist::Playlist</scope><name>__init__</name></member>
+      <member refid="classconstitution_playlist_1_1_playlist_1a0e547714dace4b6270d71432070a091a" prot="public" virt="non-virtual"><scope>constitutionPlaylist::Playlist</scope><name>creer_fichier_xspf_nom</name></member>
+      <member refid="classconstitution_playlist_1_1_playlist_1aab3a501ff2bd2922608111a6a321caa3" prot="public" virt="non-virtual"><scope>constitutionPlaylist::Playlist</scope><name>creer_un_fichier_xspf</name></member>
+      <member refid="classconstitution_playlist_1_1_playlist_1a5f871ed8c5e14ed56b05e431ebc065e3" prot="public" virt="non-virtual"><scope>constitutionPlaylist::Playlist</scope><name>dossier</name></member>
+      <member refid="classconstitution_playlist_1_1_playlist_1a6290ef49f85c95ee44e72e099187967f" prot="public" virt="non-virtual"><scope>constitutionPlaylist::Playlist</scope><name>ecriture_fichier_xspf</name></member>
+      <member refid="classconstitution_playlist_1_1_playlist_1a685283e6469be970a02e63d3d1a69263" prot="public" virt="non-virtual"><scope>constitutionPlaylist::Playlist</scope><name>path_temp</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

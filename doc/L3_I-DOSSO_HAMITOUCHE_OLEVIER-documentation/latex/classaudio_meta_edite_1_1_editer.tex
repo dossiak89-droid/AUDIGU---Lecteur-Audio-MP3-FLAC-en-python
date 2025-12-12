@@ -1,0 +1,68 @@
+\doxysection{audio\+Meta\+Edite.\+Editer Class Reference}
+\hypertarget{classaudio_meta_edite_1_1_editer}{}\label{classaudio_meta_edite_1_1_editer}\index{audioMetaEdite.Editer@{audioMetaEdite.Editer}}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+dict \mbox{\hyperlink{classaudio_meta_edite_1_1_editer_a37618a5ad26d504b40af79f2c5a632b3}{creation\+\_\+meta\+\_\+donnees}} (self, str titre, str artiste, str album, str genre, str ladate, str organisation)
+\item 
+None \mbox{\hyperlink{classaudio_meta_edite_1_1_editer_a1dadfa3125aebffbad4654b3516f0846}{afficher\+\_\+et\+\_\+modifier\+\_\+metadata}} (self, str chemin\+\_\+audio, str chemin\+\_\+image, str titre, str artiste, str album, str genre, str ladate, str organisation)
+\item 
+None \mbox{\hyperlink{classaudio_meta_edite_1_1_editer_a604c5d4fba3b2a69627418f2ff381622}{modify\+\_\+mp3\+\_\+cover}} (self, str chemin\+\_\+audio, str cover\+\_\+image\+\_\+path)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+None \mbox{\hyperlink{classaudio_meta_edite_1_1_editer_a6b2d161bcc1a16e23cec11642bf355c5}{\+\_\+afficher\+\_\+et\+\_\+modifier\+\_\+meta\+\_\+mp3}} (self, str chemin\+\_\+audio, dict meta\+\_\+donnees)
+\item 
+None \mbox{\hyperlink{classaudio_meta_edite_1_1_editer_ab029cf202727fea9db9d238a9f00570e}{\+\_\+afficher\+\_\+et\+\_\+modifier\+\_\+meta\+\_\+flac}} (self, str chemin\+\_\+audio, dict meta\+\_\+donnees, str chemin\+\_\+image)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb}Classe pour créer, afficher et modifier les métadonnées des fichiers audio MP3 et FLAC.
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classaudio_meta_edite_1_1_editer_ab029cf202727fea9db9d238a9f00570e}\label{classaudio_meta_edite_1_1_editer_ab029cf202727fea9db9d238a9f00570e} 
+\index{audioMetaEdite.Editer@{audioMetaEdite.Editer}!\_afficher\_et\_modifier\_meta\_flac@{\_afficher\_et\_modifier\_meta\_flac}}
+\index{\_afficher\_et\_modifier\_meta\_flac@{\_afficher\_et\_modifier\_meta\_flac}!audioMetaEdite.Editer@{audioMetaEdite.Editer}}
+\doxysubsubsection{\texorpdfstring{\_afficher\_et\_modifier\_meta\_flac()}{\_afficher\_et\_modifier\_meta\_flac()}}
+{\footnotesize\ttfamily  None audio\+Meta\+Edite.\+Editer.\+\_\+afficher\+\_\+et\+\_\+modifier\+\_\+meta\+\_\+flac (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{str}]{chemin\+\_\+audio,  }\item[{dict}]{meta\+\_\+donnees,  }\item[{str}]{chemin\+\_\+image }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+\begin{DoxyVerb}Affiche et modifie les métadonnées d'un fichier FLAC.\end{DoxyVerb}
+ \Hypertarget{classaudio_meta_edite_1_1_editer_a6b2d161bcc1a16e23cec11642bf355c5}\label{classaudio_meta_edite_1_1_editer_a6b2d161bcc1a16e23cec11642bf355c5} 
+\index{audioMetaEdite.Editer@{audioMetaEdite.Editer}!\_afficher\_et\_modifier\_meta\_mp3@{\_afficher\_et\_modifier\_meta\_mp3}}
+\index{\_afficher\_et\_modifier\_meta\_mp3@{\_afficher\_et\_modifier\_meta\_mp3}!audioMetaEdite.Editer@{audioMetaEdite.Editer}}
+\doxysubsubsection{\texorpdfstring{\_afficher\_et\_modifier\_meta\_mp3()}{\_afficher\_et\_modifier\_meta\_mp3()}}
+{\footnotesize\ttfamily  None audio\+Meta\+Edite.\+Editer.\+\_\+afficher\+\_\+et\+\_\+modifier\+\_\+meta\+\_\+mp3 (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{str}]{chemin\+\_\+audio,  }\item[{dict}]{meta\+\_\+donnees }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+\begin{DoxyVerb}Affiche et modifie les métadonnées d'un fichier MP3.\end{DoxyVerb}
+ \Hypertarget{classaudio_meta_edite_1_1_editer_a1dadfa3125aebffbad4654b3516f0846}\label{classaudio_meta_edite_1_1_editer_a1dadfa3125aebffbad4654b3516f0846} 
+\index{audioMetaEdite.Editer@{audioMetaEdite.Editer}!afficher\_et\_modifier\_metadata@{afficher\_et\_modifier\_metadata}}
+\index{afficher\_et\_modifier\_metadata@{afficher\_et\_modifier\_metadata}!audioMetaEdite.Editer@{audioMetaEdite.Editer}}
+\doxysubsubsection{\texorpdfstring{afficher\_et\_modifier\_metadata()}{afficher\_et\_modifier\_metadata()}}
+{\footnotesize\ttfamily  None audio\+Meta\+Edite.\+Editer.\+afficher\+\_\+et\+\_\+modifier\+\_\+metadata (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{str}]{chemin\+\_\+audio,  }\item[{str}]{chemin\+\_\+image,  }\item[{str}]{titre,  }\item[{str}]{artiste,  }\item[{str}]{album,  }\item[{str}]{genre,  }\item[{str}]{ladate,  }\item[{str}]{organisation }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Détecte le format du fichier audio et modifie les métadonnées.
+\end{DoxyVerb}
+ \Hypertarget{classaudio_meta_edite_1_1_editer_a37618a5ad26d504b40af79f2c5a632b3}\label{classaudio_meta_edite_1_1_editer_a37618a5ad26d504b40af79f2c5a632b3} 
+\index{audioMetaEdite.Editer@{audioMetaEdite.Editer}!creation\_meta\_donnees@{creation\_meta\_donnees}}
+\index{creation\_meta\_donnees@{creation\_meta\_donnees}!audioMetaEdite.Editer@{audioMetaEdite.Editer}}
+\doxysubsubsection{\texorpdfstring{creation\_meta\_donnees()}{creation\_meta\_donnees()}}
+{\footnotesize\ttfamily  dict audio\+Meta\+Edite.\+Editer.\+creation\+\_\+meta\+\_\+donnees (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{str}]{titre,  }\item[{str}]{artiste,  }\item[{str}]{album,  }\item[{str}]{genre,  }\item[{str}]{ladate,  }\item[{str}]{organisation }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Crée un dictionnaire de métadonnées pour un fichier audio.
+\end{DoxyVerb}
+ \Hypertarget{classaudio_meta_edite_1_1_editer_a604c5d4fba3b2a69627418f2ff381622}\label{classaudio_meta_edite_1_1_editer_a604c5d4fba3b2a69627418f2ff381622} 
+\index{audioMetaEdite.Editer@{audioMetaEdite.Editer}!modify\_mp3\_cover@{modify\_mp3\_cover}}
+\index{modify\_mp3\_cover@{modify\_mp3\_cover}!audioMetaEdite.Editer@{audioMetaEdite.Editer}}
+\doxysubsubsection{\texorpdfstring{modify\_mp3\_cover()}{modify\_mp3\_cover()}}
+{\footnotesize\ttfamily  None audio\+Meta\+Edite.\+Editer.\+modify\+\_\+mp3\+\_\+cover (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{str}]{chemin\+\_\+audio,  }\item[{str}]{cover\+\_\+image\+\_\+path }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Modifie la couverture d'un fichier MP3.\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+audio\+Meta\+Edite.\+py\end{DoxyCompactItemize}

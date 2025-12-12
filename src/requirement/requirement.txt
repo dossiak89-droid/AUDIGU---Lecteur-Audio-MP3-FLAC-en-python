@@ -1,0 +1,6 @@
+Mutagen
+Pygame
+Pydub
+LXML / ElementTree
+Argparse
+requests

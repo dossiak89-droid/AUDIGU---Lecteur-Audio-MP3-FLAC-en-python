@@ -1,0 +1,220 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classexploration_dossier_1_1_explorer" kind="class" language="Python" prot="public">
+    <compoundname>explorationDossier::Explorer</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classexploration_dossier_1_1_explorer_1a6aa4582c2a7cbd949505023624303744" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>explorationDossier.Explorer::fichier_temp</definition>
+        <argsstring></argsstring>
+        <name>fichier_temp</name>
+        <qualifiedname>explorationDossier.Explorer.fichier_temp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="explorationDossier.py" line="35" column="1" bodyfile="explorationDossier.py" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classexploration_dossier_1_1_explorer_1a0d11007362409b14aabc15d6267e5aab" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>explorationDossier.Explorer::chemin_python_project</definition>
+        <argsstring></argsstring>
+        <name>chemin_python_project</name>
+        <qualifiedname>explorationDossier.Explorer.chemin_python_project</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="explorationDossier.py" line="36" column="1" bodyfile="explorationDossier.py" bodystart="36" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classexploration_dossier_1_1_explorer_1aadd08657d77a4c2cf856f1471b047a01" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>explorationDossier.Explorer.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>explorationDossier.Explorer.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="explorationDossier.py" line="32" column="1" bodyfile="explorationDossier.py" bodystart="32" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classexploration_dossier_1_1_explorer_1aa4fb05f156e4760889b45a3198a2a94d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None explorationDossier.Explorer.explorer_dossier_console</definition>
+        <argsstring>(self, str chemin_name)</argsstring>
+        <name>explorer_dossier_console</name>
+        <qualifiedname>explorationDossier.Explorer.explorer_dossier_console</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>chemin_name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Parcourt un dossier et affiche tous les fichiers audio trouvés dans la console.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="explorationDossier.py" line="59" column="1" bodyfile="explorationDossier.py" bodystart="59" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="classexploration_dossier_1_1_explorer_1a4dc211d427e05f1a341353a67ccf7c7d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str explorationDossier.Explorer.explorer_dossier_gui</definition>
+        <argsstring>(self, str chemin)</argsstring>
+        <name>explorer_dossier_gui</name>
+        <qualifiedname>explorationDossier.Explorer.explorer_dossier_gui</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>chemin</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Parcourt un dossier et retourne le chemin vers le fichier temporaire contenant la liste des fichiers audio.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="explorationDossier.py" line="71" column="1" bodyfile="explorationDossier.py" bodystart="71" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="classexploration_dossier_1_1_explorer_1a556ccdc9fa66dc54055f52f479f9adb8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>list</type>
+        <definition> list explorationDossier.Explorer.explorer_Playlist</definition>
+        <argsstring>(self)</argsstring>
+        <name>explorer_Playlist</name>
+        <qualifiedname>explorationDossier.Explorer.explorer_Playlist</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Retourne une liste de toutes les playlists (.xspf) dans le projet.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="explorationDossier.py" line="78" column="1" bodyfile="explorationDossier.py" bodystart="78" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="classexploration_dossier_1_1_explorer_1afe3219f6f4b5f770cde4f940097b92da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>list</type>
+        <definition> list explorationDossier.Explorer.extraire_pistes_de_playlist</definition>
+        <argsstring>(self, str chemin_complet)</argsstring>
+        <name>extraire_pistes_de_playlist</name>
+        <qualifiedname>explorationDossier.Explorer.extraire_pistes_de_playlist</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>chemin_complet</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Extrait les chemins des pistes d&apos;une playlist XSPF.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="explorationDossier.py" line="89" column="1" bodyfile="explorationDossier.py" bodystart="89" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="classexploration_dossier_1_1_explorer_1a05139873eb9314dea02c6b241c24fa96" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str explorationDossier.Explorer.explorer_dossier_interface</definition>
+        <argsstring>(self, str chemin)</argsstring>
+        <name>explorer_dossier_interface</name>
+        <qualifiedname>explorationDossier.Explorer.explorer_dossier_interface</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>chemin</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Parcourt un dossier pour l’interface GUI et retourne le fichier temporaire contenant les chemins audio.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="explorationDossier.py" line="111" column="1" bodyfile="explorationDossier.py" bodystart="111" bodyend="117"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classexploration_dossier_1_1_explorer_1a3efc6c85fda42230ee1c5134e92a8939" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str explorationDossier.Explorer._explorer_dossier_audio</definition>
+        <argsstring>(self, str chemin, str fichier_sortie)</argsstring>
+        <name>_explorer_dossier_audio</name>
+        <qualifiedname>explorationDossier.Explorer._explorer_dossier_audio</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>chemin</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>fichier_sortie</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Parcourt un dossier et enregistre tous les fichiers audio (.mp3, .flac) dans un fichier temporaire.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="explorationDossier.py" line="41" column="1" bodyfile="explorationDossier.py" bodystart="41" bodyend="58"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Classe pour explorer des dossiers, lister les fichiers audio et gérer les playlists temporaires.
+</verbatim> </para>
+    </detaileddescription>
+    <location file="explorationDossier.py" line="27" column="1" bodyfile="explorationDossier.py" bodystart="27" bodyend="117"/>
+    <listofallmembers>
+      <member refid="classexploration_dossier_1_1_explorer_1aadd08657d77a4c2cf856f1471b047a01" prot="public" virt="non-virtual"><scope>explorationDossier::Explorer</scope><name>__init__</name></member>
+      <member refid="classexploration_dossier_1_1_explorer_1a3efc6c85fda42230ee1c5134e92a8939" prot="protected" virt="non-virtual"><scope>explorationDossier::Explorer</scope><name>_explorer_dossier_audio</name></member>
+      <member refid="classexploration_dossier_1_1_explorer_1a0d11007362409b14aabc15d6267e5aab" prot="public" virt="non-virtual"><scope>explorationDossier::Explorer</scope><name>chemin_python_project</name></member>
+      <member refid="classexploration_dossier_1_1_explorer_1aa4fb05f156e4760889b45a3198a2a94d" prot="public" virt="non-virtual"><scope>explorationDossier::Explorer</scope><name>explorer_dossier_console</name></member>
+      <member refid="classexploration_dossier_1_1_explorer_1a4dc211d427e05f1a341353a67ccf7c7d" prot="public" virt="non-virtual"><scope>explorationDossier::Explorer</scope><name>explorer_dossier_gui</name></member>
+      <member refid="classexploration_dossier_1_1_explorer_1a05139873eb9314dea02c6b241c24fa96" prot="public" virt="non-virtual"><scope>explorationDossier::Explorer</scope><name>explorer_dossier_interface</name></member>
+      <member refid="classexploration_dossier_1_1_explorer_1a556ccdc9fa66dc54055f52f479f9adb8" prot="public" virt="non-virtual"><scope>explorationDossier::Explorer</scope><name>explorer_Playlist</name></member>
+      <member refid="classexploration_dossier_1_1_explorer_1afe3219f6f4b5f770cde4f940097b92da" prot="public" virt="non-virtual"><scope>explorationDossier::Explorer</scope><name>extraire_pistes_de_playlist</name></member>
+      <member refid="classexploration_dossier_1_1_explorer_1a6aa4582c2a7cbd949505023624303744" prot="public" virt="non-virtual"><scope>explorationDossier::Explorer</scope><name>fichier_temp</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

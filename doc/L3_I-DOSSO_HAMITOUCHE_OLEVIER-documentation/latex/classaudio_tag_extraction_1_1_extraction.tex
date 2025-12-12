@@ -1,0 +1,51 @@
+\doxysection{audio\+Tag\+Extraction.\+Extraction Class Reference}
+\hypertarget{classaudio_tag_extraction_1_1_extraction}{}\label{classaudio_tag_extraction_1_1_extraction}\index{audioTagExtraction.Extraction@{audioTagExtraction.Extraction}}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+tuple\mbox{[}int, int\mbox{]} \mbox{\hyperlink{classaudio_tag_extraction_1_1_extraction_ad552289812c88c5edb482d2ef06f3b67}{convertir\+\_\+seconds\+\_\+en\+\_\+minutes\+\_\+secondes}} (self, duree)
+\item 
+dict \mbox{\hyperlink{classaudio_tag_extraction_1_1_extraction_ab74332c3a2ec556ab001f16c9512567b}{extraction\+\_\+et\+\_\+afficher\+\_\+tag}} (self, str file\+\_\+aud)
+\item 
+None \mbox{\hyperlink{classaudio_tag_extraction_1_1_extraction_aa0235c7c1e21856650e585aed9f7ec5c}{afficher\+\_\+tags\+\_\+console}} (self, str file\+\_\+aud)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb}Classe pour extraire et afficher les métadonnées
+des fichiers audio MP3 et FLAC.
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classaudio_tag_extraction_1_1_extraction_aa0235c7c1e21856650e585aed9f7ec5c}\label{classaudio_tag_extraction_1_1_extraction_aa0235c7c1e21856650e585aed9f7ec5c} 
+\index{audioTagExtraction.Extraction@{audioTagExtraction.Extraction}!afficher\_tags\_console@{afficher\_tags\_console}}
+\index{afficher\_tags\_console@{afficher\_tags\_console}!audioTagExtraction.Extraction@{audioTagExtraction.Extraction}}
+\doxysubsubsection{\texorpdfstring{afficher\_tags\_console()}{afficher\_tags\_console()}}
+{\footnotesize\ttfamily  None audio\+Tag\+Extraction.\+Extraction.\+afficher\+\_\+tags\+\_\+console (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{str}]{file\+\_\+aud }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Affiche proprement les métadonnées dans la console.
+\end{DoxyVerb}
+ \Hypertarget{classaudio_tag_extraction_1_1_extraction_ad552289812c88c5edb482d2ef06f3b67}\label{classaudio_tag_extraction_1_1_extraction_ad552289812c88c5edb482d2ef06f3b67} 
+\index{audioTagExtraction.Extraction@{audioTagExtraction.Extraction}!convertir\_seconds\_en\_minutes\_secondes@{convertir\_seconds\_en\_minutes\_secondes}}
+\index{convertir\_seconds\_en\_minutes\_secondes@{convertir\_seconds\_en\_minutes\_secondes}!audioTagExtraction.Extraction@{audioTagExtraction.Extraction}}
+\doxysubsubsection{\texorpdfstring{convertir\_seconds\_en\_minutes\_secondes()}{convertir\_seconds\_en\_minutes\_secondes()}}
+{\footnotesize\ttfamily  tuple\mbox{[}int, int\mbox{]} audio\+Tag\+Extraction.\+Extraction.\+convertir\+\_\+seconds\+\_\+en\+\_\+minutes\+\_\+secondes (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{duree }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Convertit une durée en secondes en minutes et secondes.
+\end{DoxyVerb}
+ \Hypertarget{classaudio_tag_extraction_1_1_extraction_ab74332c3a2ec556ab001f16c9512567b}\label{classaudio_tag_extraction_1_1_extraction_ab74332c3a2ec556ab001f16c9512567b} 
+\index{audioTagExtraction.Extraction@{audioTagExtraction.Extraction}!extraction\_et\_afficher\_tag@{extraction\_et\_afficher\_tag}}
+\index{extraction\_et\_afficher\_tag@{extraction\_et\_afficher\_tag}!audioTagExtraction.Extraction@{audioTagExtraction.Extraction}}
+\doxysubsubsection{\texorpdfstring{extraction\_et\_afficher\_tag()}{extraction\_et\_afficher\_tag()}}
+{\footnotesize\ttfamily  dict audio\+Tag\+Extraction.\+Extraction.\+extraction\+\_\+et\+\_\+afficher\+\_\+tag (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{str}]{file\+\_\+aud }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Extrait les métadonnées d'un fichier audio (MP3 ou FLAC)
+et les retourne sous forme de dictionnaire.
+Compatible avec le CLI et le GUI.
+\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+audio\+Tag\+Extraction.\+py\end{DoxyCompactItemize}

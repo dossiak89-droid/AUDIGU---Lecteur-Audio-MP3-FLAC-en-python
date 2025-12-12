@@ -1,0 +1,205 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classaudio_meta_edite_1_1_editer" kind="class" language="Python" prot="public">
+    <compoundname>audioMetaEdite::Editer</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classaudio_meta_edite_1_1_editer_1a37618a5ad26d504b40af79f2c5a632b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>dict</type>
+        <definition> dict audioMetaEdite.Editer.creation_meta_donnees</definition>
+        <argsstring>(self, str titre, str artiste, str album, str genre, str ladate, str organisation)</argsstring>
+        <name>creation_meta_donnees</name>
+        <qualifiedname>audioMetaEdite.Editer.creation_meta_donnees</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>titre</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>artiste</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>album</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>genre</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>ladate</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>organisation</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Crée un dictionnaire de métadonnées pour un fichier audio.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="audioMetaEdite.py" line="31" column="1" bodyfile="audioMetaEdite.py" bodystart="32" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="classaudio_meta_edite_1_1_editer_1a1dadfa3125aebffbad4654b3516f0846" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None audioMetaEdite.Editer.afficher_et_modifier_metadata</definition>
+        <argsstring>(self, str chemin_audio, str chemin_image, str titre, str artiste, str album, str genre, str ladate, str organisation)</argsstring>
+        <name>afficher_et_modifier_metadata</name>
+        <qualifiedname>audioMetaEdite.Editer.afficher_et_modifier_metadata</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>chemin_audio</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>chemin_image</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>titre</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>artiste</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>album</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>genre</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>ladate</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>organisation</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Détecte le format du fichier audio et modifie les métadonnées.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="audioMetaEdite.py" line="45" column="1" bodyfile="audioMetaEdite.py" bodystart="47" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="classaudio_meta_edite_1_1_editer_1a604c5d4fba3b2a69627418f2ff381622" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None audioMetaEdite.Editer.modify_mp3_cover</definition>
+        <argsstring>(self, str chemin_audio, str cover_image_path)</argsstring>
+        <name>modify_mp3_cover</name>
+        <qualifiedname>audioMetaEdite.Editer.modify_mp3_cover</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>chemin_audio</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>cover_image_path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Modifie la couverture d&apos;un fichier MP3.</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="audioMetaEdite.py" line="81" column="1" bodyfile="audioMetaEdite.py" bodystart="81" bodyend="96"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classaudio_meta_edite_1_1_editer_1a6b2d161bcc1a16e23cec11642bf355c5" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None audioMetaEdite.Editer._afficher_et_modifier_meta_mp3</definition>
+        <argsstring>(self, str chemin_audio, dict meta_donnees)</argsstring>
+        <name>_afficher_et_modifier_meta_mp3</name>
+        <qualifiedname>audioMetaEdite.Editer._afficher_et_modifier_meta_mp3</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>chemin_audio</declname>
+        </param>
+        <param>
+          <type>dict</type>
+          <declname>meta_donnees</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Affiche et modifie les métadonnées d&apos;un fichier MP3.</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="audioMetaEdite.py" line="64" column="1" bodyfile="audioMetaEdite.py" bodystart="64" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="classaudio_meta_edite_1_1_editer_1ab029cf202727fea9db9d238a9f00570e" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None audioMetaEdite.Editer._afficher_et_modifier_meta_flac</definition>
+        <argsstring>(self, str chemin_audio, dict meta_donnees, str chemin_image)</argsstring>
+        <name>_afficher_et_modifier_meta_flac</name>
+        <qualifiedname>audioMetaEdite.Editer._afficher_et_modifier_meta_flac</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>chemin_audio</declname>
+        </param>
+        <param>
+          <type>dict</type>
+          <declname>meta_donnees</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>chemin_image</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Affiche et modifie les métadonnées d&apos;un fichier FLAC.</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="audioMetaEdite.py" line="97" column="1" bodyfile="audioMetaEdite.py" bodystart="97" bodyend="118"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Classe pour créer, afficher et modifier les métadonnées des fichiers audio MP3 et FLAC.
+</verbatim> </para>
+    </detaileddescription>
+    <location file="audioMetaEdite.py" line="26" column="1" bodyfile="audioMetaEdite.py" bodystart="26" bodyend="118"/>
+    <listofallmembers>
+      <member refid="classaudio_meta_edite_1_1_editer_1ab029cf202727fea9db9d238a9f00570e" prot="protected" virt="non-virtual"><scope>audioMetaEdite::Editer</scope><name>_afficher_et_modifier_meta_flac</name></member>
+      <member refid="classaudio_meta_edite_1_1_editer_1a6b2d161bcc1a16e23cec11642bf355c5" prot="protected" virt="non-virtual"><scope>audioMetaEdite::Editer</scope><name>_afficher_et_modifier_meta_mp3</name></member>
+      <member refid="classaudio_meta_edite_1_1_editer_1a1dadfa3125aebffbad4654b3516f0846" prot="public" virt="non-virtual"><scope>audioMetaEdite::Editer</scope><name>afficher_et_modifier_metadata</name></member>
+      <member refid="classaudio_meta_edite_1_1_editer_1a37618a5ad26d504b40af79f2c5a632b3" prot="public" virt="non-virtual"><scope>audioMetaEdite::Editer</scope><name>creation_meta_donnees</name></member>
+      <member refid="classaudio_meta_edite_1_1_editer_1a604c5d4fba3b2a69627418f2ff381622" prot="public" virt="non-virtual"><scope>audioMetaEdite::Editer</scope><name>modify_mp3_cover</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

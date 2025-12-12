@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="ecouter_playlist_8py" kind="file" language="Python">
+    <compoundname>ecouterPlaylist.py</compoundname>
+    <innerclass refid="classecouter_playlist_1_1_ecouter_playlist" prot="public">ecouterPlaylist::EcouterPlaylist</innerclass>
+    <innernamespace refid="namespaceecouter_playlist">ecouterPlaylist</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespaceecouter_playlist" refkind="compound"><highlight class="comment">#!/usr/bin/python3</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">#<sp/>-*-<sp/>coding:<sp/>UTF-8<sp/>-*-</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="5"><highlight class="stringliteral">@file<sp/>ecouterPlaylist.py</highlight></codeline>
+<codeline lineno="6"><highlight class="stringliteral">@brief<sp/>Lecture<sp/>simple<sp/>d&apos;une<sp/>playlist<sp/>XSPF<sp/>(version<sp/>étudiante,<sp/>POO).</highlight></codeline>
+<codeline lineno="7"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="8"><highlight class="stringliteral">Cette<sp/>classe<sp/>permet<sp/>:</highlight></codeline>
+<codeline lineno="9"><highlight class="stringliteral">-<sp/>de<sp/>charger<sp/>une<sp/>playlist<sp/>.xspf</highlight></codeline>
+<codeline lineno="10"><highlight class="stringliteral">-<sp/>de<sp/>mémoriser<sp/>la<sp/>liste<sp/>des<sp/>pistes</highlight></codeline>
+<codeline lineno="11"><highlight class="stringliteral">-<sp/>de<sp/>savoir<sp/>quelle<sp/>piste<sp/>est<sp/>en<sp/>cours</highlight></codeline>
+<codeline lineno="12"><highlight class="stringliteral">-<sp/>de<sp/>jouer<sp/>la<sp/>piste<sp/>courante,<sp/>la<sp/>suivante,<sp/>la<sp/>précédente</highlight></codeline>
+<codeline lineno="13"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="14"><highlight class="stringliteral">Elle<sp/>s&apos;appuie<sp/>sur<sp/>:</highlight></codeline>
+<codeline lineno="15"><highlight class="stringliteral">-<sp/>Explorer<sp/>:<sp/>pour<sp/>lire<sp/>le<sp/>fichier<sp/>XSPF</highlight></codeline>
+<codeline lineno="16"><highlight class="stringliteral">-<sp/>Ecouter<sp/><sp/>:<sp/>pour<sp/>jouer<sp/>les<sp/>fichiers<sp/>audio</highlight></codeline>
+<codeline lineno="17"><highlight class="stringliteral">&quot;&quot;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>os</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>library.explorationDossier<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>Explorer</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>library.ecouterAudio<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>Ecouter</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="classecouter_playlist_1_1_ecouter_playlist" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classecouter_playlist_1_1_ecouter_playlist" kindref="compound">EcouterPlaylist</ref>:</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="26"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>Classe<sp/>simple<sp/>pour<sp/>gérer<sp/>une<sp/>playlist<sp/>audio.</highlight></codeline>
+<codeline lineno="27"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>&quot;&quot;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classecouter_playlist_1_1_ecouter_playlist_1ab6f6ddd3b700193493e55b92b65924a2" kindref="member">__init__</ref>(self,<sp/>explorer:<sp/>Explorer,<sp/>ecouter:<sp/>Ecouter):</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="31"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Constructeur.</highlight></codeline>
+<codeline lineno="32"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;&quot;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classecouter_playlist_1_1_ecouter_playlist_1a133b50e80eacff3ab9f89c18fadaa510" kindref="member">explorer</ref><sp/>=<sp/>explorer<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>pour<sp/>lire<sp/>le<sp/>.xspf</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classecouter_playlist_1_1_ecouter_playlist_1a5d7903485bad87b1360a17e648c1242f" kindref="member">ecouter</ref><sp/>=<sp/>ecouter<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>pour<sp/>lire<sp/>les<sp/>fichiers<sp/>audio</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classecouter_playlist_1_1_ecouter_playlist_1a7dc11a6755f078d2df87bb1d984aa460" kindref="member">pistes</ref><sp/>=<sp/>[]<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>liste<sp/>des<sp/>chemins<sp/>des<sp/>fichiers<sp/>audio</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classecouter_playlist_1_1_ecouter_playlist_1ab0ed2bb0c391dc06ecb880a734dbe86e" kindref="member">index_courant</ref><sp/>=<sp/>0<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>index<sp/>(0,<sp/>1,<sp/>2,<sp/>...)<sp/>de<sp/>la<sp/>piste<sp/>en<sp/>cours</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>Chargement<sp/>de<sp/>la<sp/>playlist</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classecouter_playlist_1_1_ecouter_playlist_1a71915fd7495b4e457a12ca67638c7c71" kindref="member">charger_playlist</ref>(self,<sp/>chemin_xspf:<sp/>str)<sp/>-&gt;<sp/>bool:</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="43"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Charge<sp/>une<sp/>playlist<sp/>XSPF<sp/>et<sp/>remplit<sp/>la<sp/>liste<sp/>des<sp/>pistes.</highlight></codeline>
+<codeline lineno="44"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="45"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>param<sp/>chemin_xspf:<sp/>chemin<sp/>vers<sp/>le<sp/>fichier<sp/>.xspf</highlight></codeline>
+<codeline lineno="46"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return:<sp/>True<sp/>si<sp/>succès,<sp/>False<sp/>sinon</highlight></codeline>
+<codeline lineno="47"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;&quot;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>chemin_xspf<sp/>=<sp/>os.path.abspath(chemin_xspf)</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">not</highlight><highlight class="normal"><sp/>os.path.isfile(chemin_xspf):</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>print(f</highlight><highlight class="stringliteral">&quot;Erreur<sp/>:<sp/>le<sp/>fichier<sp/>de<sp/>playlist<sp/>&apos;{chemin_xspf}&apos;<sp/>n&apos;existe<sp/>pas.&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">False</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>Utilisation<sp/>d&apos;Explorer<sp/>pour<sp/>extraire<sp/>les<sp/>pistes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classecouter_playlist_1_1_ecouter_playlist_1a7dc11a6755f078d2df87bb1d984aa460" kindref="member">pistes</ref><sp/>=<sp/>self.<ref refid="classecouter_playlist_1_1_ecouter_playlist_1a133b50e80eacff3ab9f89c18fadaa510" kindref="member">explorer</ref>.extraire_pistes_de_playlist(chemin_xspf)</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">not</highlight><highlight class="normal"><sp/>self.<ref refid="classecouter_playlist_1_1_ecouter_playlist_1a7dc11a6755f078d2df87bb1d984aa460" kindref="member">pistes</ref>:</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>print(</highlight><highlight class="stringliteral">&quot;Aucune<sp/>piste<sp/>trouvée<sp/>dans<sp/>la<sp/>playlist.&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">False</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>On<sp/>commence<sp/>par<sp/>la<sp/>premiere<sp/>piste</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classecouter_playlist_1_1_ecouter_playlist_1ab0ed2bb0c391dc06ecb880a734dbe86e" kindref="member">index_courant</ref><sp/>=<sp/>0</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>print(f</highlight><highlight class="stringliteral">&quot;Playlist<sp/>chargée<sp/>:<sp/>{len(self.pistes)}<sp/>pistes.&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classecouter_playlist_1_1_ecouter_playlist_1aa8c4a9f3035d5844786e9f6d6712d3d3" kindref="member">afficher_pistes</ref>()</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">True</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>Affichage</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classecouter_playlist_1_1_ecouter_playlist_1aa8c4a9f3035d5844786e9f6d6712d3d3" kindref="member">afficher_pistes</ref>(self)<sp/>-&gt;<sp/>None:</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="73"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Affiche<sp/>la<sp/>liste<sp/>des<sp/>pistes<sp/>avec<sp/>une<sp/>flèche<sp/>sur<sp/>la<sp/>piste<sp/>courante.</highlight></codeline>
+<codeline lineno="74"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;&quot;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>print(</highlight><highlight class="stringliteral">&quot;\n---<sp/>Playlist<sp/>---&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>i,<sp/>chemin<sp/></highlight><highlight class="keywordflow">in</highlight><highlight class="normal"><sp/>enumerate(self.<ref refid="classecouter_playlist_1_1_ecouter_playlist_1a7dc11a6755f078d2df87bb1d984aa460" kindref="member">pistes</ref>):</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>nom<sp/>=<sp/>os.path.basename(chemin)</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>i<sp/>==<sp/>self.<ref refid="classecouter_playlist_1_1_ecouter_playlist_1ab0ed2bb0c391dc06ecb880a734dbe86e" kindref="member">index_courant</ref>:</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>print(f</highlight><highlight class="stringliteral">&quot;-&gt;<sp/>{i<sp/>+<sp/>1}.<sp/>{nom}&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>print(f</highlight><highlight class="stringliteral">&quot;<sp/><sp/><sp/>{i<sp/>+<sp/>1}.<sp/>{nom}&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>print(</highlight><highlight class="stringliteral">&quot;---------------\n&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>Lecture</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classecouter_playlist_1_1_ecouter_playlist_1aa2711b914e363700ec0c0b77136b7e04" kindref="member">jouer_courante</ref>(self)<sp/>-&gt;<sp/>None:</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="88"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Joue<sp/>la<sp/>piste<sp/>courante.</highlight></codeline>
+<codeline lineno="89"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;&quot;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">not</highlight><highlight class="normal"><sp/>self.<ref refid="classecouter_playlist_1_1_ecouter_playlist_1a7dc11a6755f078d2df87bb1d984aa460" kindref="member">pistes</ref>:</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>print(</highlight><highlight class="stringliteral">&quot;Aucune<sp/>piste<sp/>à<sp/>jouer.&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>chemin<sp/>=<sp/>self.<ref refid="classecouter_playlist_1_1_ecouter_playlist_1a7dc11a6755f078d2df87bb1d984aa460" kindref="member">pistes</ref>[self.<ref refid="classecouter_playlist_1_1_ecouter_playlist_1ab0ed2bb0c391dc06ecb880a734dbe86e" kindref="member">index_courant</ref>]</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>nom<sp/>=<sp/>os.path.basename(chemin)</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>print(f</highlight><highlight class="stringliteral">&quot;Lecture<sp/>de<sp/>:<sp/>{self.index_courant<sp/>+<sp/>1}.<sp/>{nom}&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classecouter_playlist_1_1_ecouter_playlist_1a5d7903485bad87b1360a17e648c1242f" kindref="member">ecouter</ref>.lire_tout_audio(chemin)</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classecouter_playlist_1_1_ecouter_playlist_1a23936ef946d504fd7c939cc1651c4b8f" kindref="member">jouer_numero</ref>(self,<sp/>numero:<sp/>int)<sp/>-&gt;<sp/></highlight><highlight class="keywordtype">None</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="101"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Joue<sp/>la<sp/>piste<sp/>numéro<sp/>&apos;numero&apos;<sp/>(1,<sp/>2,<sp/>3,<sp/>...).</highlight></codeline>
+<codeline lineno="102"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="103"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>param<sp/>numero:<sp/>numéro<sp/>de<sp/>piste<sp/>(1-based)</highlight></codeline>
+<codeline lineno="104"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;&quot;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">not</highlight><highlight class="normal"><sp/>self.<ref refid="classecouter_playlist_1_1_ecouter_playlist_1a7dc11a6755f078d2df87bb1d984aa460" kindref="member">pistes</ref>:</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>print(</highlight><highlight class="stringliteral">&quot;Aucune<sp/>piste<sp/>chargée.&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>index<sp/>=<sp/>numero<sp/>-<sp/>1<sp/><sp/></highlight><highlight class="comment">#<sp/>conversion<sp/>en<sp/>index<sp/>de<sp/>liste</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>index<sp/>&lt;<sp/>0<sp/></highlight><highlight class="keywordflow">or</highlight><highlight class="normal"><sp/>index<sp/>&gt;=<sp/>len(self.<ref refid="classecouter_playlist_1_1_ecouter_playlist_1a7dc11a6755f078d2df87bb1d984aa460" kindref="member">pistes</ref>):</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>print(</highlight><highlight class="stringliteral">&quot;Numéro<sp/>de<sp/>piste<sp/>invalide.&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classecouter_playlist_1_1_ecouter_playlist_1ab0ed2bb0c391dc06ecb880a734dbe86e" kindref="member">index_courant</ref><sp/>=<sp/>index</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classecouter_playlist_1_1_ecouter_playlist_1aa2711b914e363700ec0c0b77136b7e04" kindref="member">jouer_courante</ref>()</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classecouter_playlist_1_1_ecouter_playlist_1aa5cdc491286b460b85a698c491cc2d50" kindref="member">piste_suivante</ref>(self)<sp/>-&gt;<sp/>None:</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="120"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Passe<sp/>à<sp/>la<sp/>piste<sp/>suivante<sp/>et<sp/>la<sp/>joue.</highlight></codeline>
+<codeline lineno="121"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;&quot;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">not</highlight><highlight class="normal"><sp/>self.<ref refid="classecouter_playlist_1_1_ecouter_playlist_1a7dc11a6755f078d2df87bb1d984aa460" kindref="member">pistes</ref>:</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>print(</highlight><highlight class="stringliteral">&quot;Aucune<sp/>piste<sp/>chargée.&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>self.<ref refid="classecouter_playlist_1_1_ecouter_playlist_1ab0ed2bb0c391dc06ecb880a734dbe86e" kindref="member">index_courant</ref><sp/>&lt;<sp/>len(self.<ref refid="classecouter_playlist_1_1_ecouter_playlist_1a7dc11a6755f078d2df87bb1d984aa460" kindref="member">pistes</ref>)<sp/>-<sp/>1:</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classecouter_playlist_1_1_ecouter_playlist_1ab0ed2bb0c391dc06ecb880a734dbe86e" kindref="member">index_courant</ref><sp/>+=<sp/>1</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classecouter_playlist_1_1_ecouter_playlist_1aa2711b914e363700ec0c0b77136b7e04" kindref="member">jouer_courante</ref>()</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>print(</highlight><highlight class="stringliteral">&quot;Déjà<sp/>sur<sp/>la<sp/>dernière<sp/>piste.&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classecouter_playlist_1_1_ecouter_playlist_1af84183daa1d13e5a18e11771fb5feb99" kindref="member">piste_precedente</ref>(self)<sp/>-&gt;<sp/>None:</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="134"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Passe<sp/>à<sp/>la<sp/>piste<sp/>précédente<sp/>et<sp/>la<sp/>joue.</highlight></codeline>
+<codeline lineno="135"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;&quot;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">not</highlight><highlight class="normal"><sp/>self.<ref refid="classecouter_playlist_1_1_ecouter_playlist_1a7dc11a6755f078d2df87bb1d984aa460" kindref="member">pistes</ref>:</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>print(</highlight><highlight class="stringliteral">&quot;Aucune<sp/>piste<sp/>chargée.&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>self.<ref refid="classecouter_playlist_1_1_ecouter_playlist_1ab0ed2bb0c391dc06ecb880a734dbe86e" kindref="member">index_courant</ref><sp/>&gt;<sp/>0:</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classecouter_playlist_1_1_ecouter_playlist_1ab0ed2bb0c391dc06ecb880a734dbe86e" kindref="member">index_courant</ref><sp/>-=<sp/>1</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classecouter_playlist_1_1_ecouter_playlist_1aa2711b914e363700ec0c0b77136b7e04" kindref="member">jouer_courante</ref>()</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>print(</highlight><highlight class="stringliteral">&quot;Déjà<sp/>sur<sp/>la<sp/>première<sp/>piste.&quot;</highlight><highlight class="normal">)</highlight></codeline>
+    </programlisting>
+    <location file="ecouterPlaylist.py"/>
+  </compounddef>
+</doxygen>

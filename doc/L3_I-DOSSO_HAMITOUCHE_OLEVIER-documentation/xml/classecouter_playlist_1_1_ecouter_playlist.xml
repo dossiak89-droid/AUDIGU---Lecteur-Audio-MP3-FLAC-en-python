@@ -1,0 +1,247 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classecouter_playlist_1_1_ecouter_playlist" kind="class" language="Python" prot="public">
+    <compoundname>ecouterPlaylist::EcouterPlaylist</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classecouter_playlist_1_1_ecouter_playlist_1a133b50e80eacff3ab9f89c18fadaa510" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>ecouterPlaylist.EcouterPlaylist::explorer</definition>
+        <argsstring></argsstring>
+        <name>explorer</name>
+        <qualifiedname>ecouterPlaylist.EcouterPlaylist.explorer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ecouterPlaylist.py" line="33" column="1" bodyfile="ecouterPlaylist.py" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classecouter_playlist_1_1_ecouter_playlist_1a5d7903485bad87b1360a17e648c1242f" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>ecouterPlaylist.EcouterPlaylist::ecouter</definition>
+        <argsstring></argsstring>
+        <name>ecouter</name>
+        <qualifiedname>ecouterPlaylist.EcouterPlaylist.ecouter</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ecouterPlaylist.py" line="34" column="1" bodyfile="ecouterPlaylist.py" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classecouter_playlist_1_1_ecouter_playlist_1a7dc11a6755f078d2df87bb1d984aa460" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>ecouterPlaylist.EcouterPlaylist::pistes</definition>
+        <argsstring></argsstring>
+        <name>pistes</name>
+        <qualifiedname>ecouterPlaylist.EcouterPlaylist.pistes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ecouterPlaylist.py" line="35" column="1" bodyfile="ecouterPlaylist.py" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classecouter_playlist_1_1_ecouter_playlist_1ab0ed2bb0c391dc06ecb880a734dbe86e" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>ecouterPlaylist.EcouterPlaylist::index_courant</definition>
+        <argsstring></argsstring>
+        <name>index_courant</name>
+        <qualifiedname>ecouterPlaylist.EcouterPlaylist.index_courant</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ecouterPlaylist.py" line="36" column="1" bodyfile="ecouterPlaylist.py" bodystart="36" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classecouter_playlist_1_1_ecouter_playlist_1ab6f6ddd3b700193493e55b92b65924a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ecouterPlaylist.EcouterPlaylist.__init__</definition>
+        <argsstring>(self, Explorer explorer, Ecouter ecouter)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>ecouterPlaylist.EcouterPlaylist.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>Explorer</type>
+          <declname>explorer</declname>
+        </param>
+        <param>
+          <type>Ecouter</type>
+          <declname>ecouter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Constructeur.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ecouterPlaylist.py" line="29" column="1" bodyfile="ecouterPlaylist.py" bodystart="29" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classecouter_playlist_1_1_ecouter_playlist_1a71915fd7495b4e457a12ca67638c7c71" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool ecouterPlaylist.EcouterPlaylist.charger_playlist</definition>
+        <argsstring>(self, str chemin_xspf)</argsstring>
+        <name>charger_playlist</name>
+        <qualifiedname>ecouterPlaylist.EcouterPlaylist.charger_playlist</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>chemin_xspf</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Charge une playlist XSPF et remplit la liste des pistes.
+
+param chemin_xspf: chemin vers le fichier .xspf
+return: True si succès, False sinon
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ecouterPlaylist.py" line="41" column="1" bodyfile="ecouterPlaylist.py" bodystart="41" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="classecouter_playlist_1_1_ecouter_playlist_1aa8c4a9f3035d5844786e9f6d6712d3d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None ecouterPlaylist.EcouterPlaylist.afficher_pistes</definition>
+        <argsstring>(self)</argsstring>
+        <name>afficher_pistes</name>
+        <qualifiedname>ecouterPlaylist.EcouterPlaylist.afficher_pistes</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Affiche la liste des pistes avec une flèche sur la piste courante.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ecouterPlaylist.py" line="71" column="1" bodyfile="ecouterPlaylist.py" bodystart="71" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="classecouter_playlist_1_1_ecouter_playlist_1aa2711b914e363700ec0c0b77136b7e04" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None ecouterPlaylist.EcouterPlaylist.jouer_courante</definition>
+        <argsstring>(self)</argsstring>
+        <name>jouer_courante</name>
+        <qualifiedname>ecouterPlaylist.EcouterPlaylist.jouer_courante</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Joue la piste courante.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ecouterPlaylist.py" line="86" column="1" bodyfile="ecouterPlaylist.py" bodystart="86" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="classecouter_playlist_1_1_ecouter_playlist_1a23936ef946d504fd7c939cc1651c4b8f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None ecouterPlaylist.EcouterPlaylist.jouer_numero</definition>
+        <argsstring>(self, int numero)</argsstring>
+        <name>jouer_numero</name>
+        <qualifiedname>ecouterPlaylist.EcouterPlaylist.jouer_numero</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>numero</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Joue la piste numéro &apos;numero&apos; (1, 2, 3, ...).
+
+param numero: numéro de piste (1-based)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ecouterPlaylist.py" line="99" column="1" bodyfile="ecouterPlaylist.py" bodystart="99" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="classecouter_playlist_1_1_ecouter_playlist_1aa5cdc491286b460b85a698c491cc2d50" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None ecouterPlaylist.EcouterPlaylist.piste_suivante</definition>
+        <argsstring>(self)</argsstring>
+        <name>piste_suivante</name>
+        <qualifiedname>ecouterPlaylist.EcouterPlaylist.piste_suivante</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Passe à la piste suivante et la joue.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ecouterPlaylist.py" line="118" column="1" bodyfile="ecouterPlaylist.py" bodystart="118" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="classecouter_playlist_1_1_ecouter_playlist_1af84183daa1d13e5a18e11771fb5feb99" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None ecouterPlaylist.EcouterPlaylist.piste_precedente</definition>
+        <argsstring>(self)</argsstring>
+        <name>piste_precedente</name>
+        <qualifiedname>ecouterPlaylist.EcouterPlaylist.piste_precedente</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Passe à la piste précédente et la joue.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ecouterPlaylist.py" line="132" column="1" bodyfile="ecouterPlaylist.py" bodystart="132" bodyend="145"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Classe simple pour gérer une playlist audio.
+</verbatim> </para>
+    </detaileddescription>
+    <location file="ecouterPlaylist.py" line="24" column="1" bodyfile="ecouterPlaylist.py" bodystart="24" bodyend="145"/>
+    <listofallmembers>
+      <member refid="classecouter_playlist_1_1_ecouter_playlist_1ab6f6ddd3b700193493e55b92b65924a2" prot="public" virt="non-virtual"><scope>ecouterPlaylist::EcouterPlaylist</scope><name>__init__</name></member>
+      <member refid="classecouter_playlist_1_1_ecouter_playlist_1aa8c4a9f3035d5844786e9f6d6712d3d3" prot="public" virt="non-virtual"><scope>ecouterPlaylist::EcouterPlaylist</scope><name>afficher_pistes</name></member>
+      <member refid="classecouter_playlist_1_1_ecouter_playlist_1a71915fd7495b4e457a12ca67638c7c71" prot="public" virt="non-virtual"><scope>ecouterPlaylist::EcouterPlaylist</scope><name>charger_playlist</name></member>
+      <member refid="classecouter_playlist_1_1_ecouter_playlist_1a5d7903485bad87b1360a17e648c1242f" prot="public" virt="non-virtual"><scope>ecouterPlaylist::EcouterPlaylist</scope><name>ecouter</name></member>
+      <member refid="classecouter_playlist_1_1_ecouter_playlist_1a133b50e80eacff3ab9f89c18fadaa510" prot="public" virt="non-virtual"><scope>ecouterPlaylist::EcouterPlaylist</scope><name>explorer</name></member>
+      <member refid="classecouter_playlist_1_1_ecouter_playlist_1ab0ed2bb0c391dc06ecb880a734dbe86e" prot="public" virt="non-virtual"><scope>ecouterPlaylist::EcouterPlaylist</scope><name>index_courant</name></member>
+      <member refid="classecouter_playlist_1_1_ecouter_playlist_1aa2711b914e363700ec0c0b77136b7e04" prot="public" virt="non-virtual"><scope>ecouterPlaylist::EcouterPlaylist</scope><name>jouer_courante</name></member>
+      <member refid="classecouter_playlist_1_1_ecouter_playlist_1a23936ef946d504fd7c939cc1651c4b8f" prot="public" virt="non-virtual"><scope>ecouterPlaylist::EcouterPlaylist</scope><name>jouer_numero</name></member>
+      <member refid="classecouter_playlist_1_1_ecouter_playlist_1af84183daa1d13e5a18e11771fb5feb99" prot="public" virt="non-virtual"><scope>ecouterPlaylist::EcouterPlaylist</scope><name>piste_precedente</name></member>
+      <member refid="classecouter_playlist_1_1_ecouter_playlist_1aa5cdc491286b460b85a698c491cc2d50" prot="public" virt="non-virtual"><scope>ecouterPlaylist::EcouterPlaylist</scope><name>piste_suivante</name></member>
+      <member refid="classecouter_playlist_1_1_ecouter_playlist_1a7dc11a6755f078d2df87bb1d984aa460" prot="public" virt="non-virtual"><scope>ecouterPlaylist::EcouterPlaylist</scope><name>pistes</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,1715 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classgui_1_1_audio_app" kind="class" language="Python" prot="public">
+    <compoundname>gui::AudioApp</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classgui_1_1_audio_app_1ac9e02e9e120292242748041b44d82700" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>gui.AudioApp::master</definition>
+        <argsstring></argsstring>
+        <name>master</name>
+        <qualifiedname>gui.AudioApp.master</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="63" column="1" bodyfile="gui.py" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_audio_app_1ae632f15cae54655dd84b5fc422500a94" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>gui.AudioApp::FONT_PANEL2_SMALL</definition>
+        <argsstring></argsstring>
+        <name>FONT_PANEL2_SMALL</name>
+        <qualifiedname>gui.AudioApp.FONT_PANEL2_SMALL</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="68" column="1" bodyfile="gui.py" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_audio_app_1a40034937f1d966c14cc8c6b93290e728" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>gui.AudioApp::FONT_PANEL2_MEDIUM</definition>
+        <argsstring></argsstring>
+        <name>FONT_PANEL2_MEDIUM</name>
+        <qualifiedname>gui.AudioApp.FONT_PANEL2_MEDIUM</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="69" column="1" bodyfile="gui.py" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_audio_app_1a54ec9ed9a09307e1309be9a02cccaaa5" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>gui.AudioApp::FONT_PANEL2_LARGE</definition>
+        <argsstring></argsstring>
+        <name>FONT_PANEL2_LARGE</name>
+        <qualifiedname>gui.AudioApp.FONT_PANEL2_LARGE</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="70" column="1" bodyfile="gui.py" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_audio_app_1a9442b9aa46374177d23617f6e2225cd3" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>gui.AudioApp::max_length</definition>
+        <argsstring></argsstring>
+        <name>max_length</name>
+        <qualifiedname>gui.AudioApp.max_length</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="73" column="1" bodyfile="gui.py" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_audio_app_1a879d8eaf56257e1b47babafc5869acbd" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>gui.AudioApp::max_length_milieu</definition>
+        <argsstring></argsstring>
+        <name>max_length_milieu</name>
+        <qualifiedname>gui.AudioApp.max_length_milieu</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="74" column="1" bodyfile="gui.py" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_audio_app_1a15da49c39a1a0122d45b17e3a5ad3ea4" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>gui.AudioApp::audio_list</definition>
+        <argsstring></argsstring>
+        <name>audio_list</name>
+        <qualifiedname>gui.AudioApp.audio_list</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="75" column="1" bodyfile="gui.py" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_audio_app_1ac14e4de359e84c5b6a45d416a8c10007" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>gui.AudioApp::audio_paths</definition>
+        <argsstring></argsstring>
+        <name>audio_paths</name>
+        <qualifiedname>gui.AudioApp.audio_paths</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="76" column="1" bodyfile="gui.py" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_audio_app_1aeb055708cd021650c65feb6f9b1b7d7e" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>gui.AudioApp::filtered_audio_list</definition>
+        <argsstring></argsstring>
+        <name>filtered_audio_list</name>
+        <qualifiedname>gui.AudioApp.filtered_audio_list</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="77" column="1" bodyfile="gui.py" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_audio_app_1ae12be2f26011e3284c6384b43e8fcc9a" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>gui.AudioApp::current_index</definition>
+        <argsstring></argsstring>
+        <name>current_index</name>
+        <qualifiedname>gui.AudioApp.current_index</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="78" column="1" bodyfile="gui.py" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_audio_app_1a1346f0602684dd4518796c18b7298b85" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>gui.AudioApp::is_paused</definition>
+        <argsstring></argsstring>
+        <name>is_paused</name>
+        <qualifiedname>gui.AudioApp.is_paused</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="79" column="1" bodyfile="gui.py" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_audio_app_1a9aac7ea9a946625180c2834bfb8c383a" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>gui.AudioApp::audio_playing</definition>
+        <argsstring></argsstring>
+        <name>audio_playing</name>
+        <qualifiedname>gui.AudioApp.audio_playing</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="80" column="1" bodyfile="gui.py" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_audio_app_1a22731d1f01d541745316a6c6ec09645c" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>gui.AudioApp::fetcher</definition>
+        <argsstring></argsstring>
+        <name>fetcher</name>
+        <qualifiedname>gui.AudioApp.fetcher</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="81" column="1" bodyfile="gui.py" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_audio_app_1ae74edd540246168165264750c08a0938" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>gui.AudioApp::lyrics_fetcher</definition>
+        <argsstring></argsstring>
+        <name>lyrics_fetcher</name>
+        <qualifiedname>gui.AudioApp.lyrics_fetcher</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="82" column="1" bodyfile="gui.py" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_audio_app_1afe6fe2d46891a2d1e6d13219cc67f3b9" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>gui.AudioApp::current_playlist</definition>
+        <argsstring></argsstring>
+        <name>current_playlist</name>
+        <qualifiedname>gui.AudioApp.current_playlist</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="83" column="1" bodyfile="gui.py" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_audio_app_1a814999b709acd053d7133cd6dc99c315" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>gui.AudioApp::dark_mode</definition>
+        <argsstring></argsstring>
+        <name>dark_mode</name>
+        <qualifiedname>gui.AudioApp.dark_mode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="84" column="1" bodyfile="gui.py" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_audio_app_1aca42d37a64bda58ee585a2d74e58368c" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>gui.AudioApp::current_lyrics</definition>
+        <argsstring></argsstring>
+        <name>current_lyrics</name>
+        <qualifiedname>gui.AudioApp.current_lyrics</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="86" column="1" bodyfile="gui.py" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_audio_app_1a7b6bb54b0fb70750ee876aef7b83b77b" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>gui.AudioApp::current_artist</definition>
+        <argsstring></argsstring>
+        <name>current_artist</name>
+        <qualifiedname>gui.AudioApp.current_artist</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="87" column="1" bodyfile="gui.py" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_audio_app_1ad99f4b617080fb07054c4cd95afe4d4b" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>gui.AudioApp::current_title</definition>
+        <argsstring></argsstring>
+        <name>current_title</name>
+        <qualifiedname>gui.AudioApp.current_title</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="88" column="1" bodyfile="gui.py" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_audio_app_1ac7a39b724d60467140d98a59d5167211" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>gui.AudioApp::light_colors</definition>
+        <argsstring></argsstring>
+        <name>light_colors</name>
+        <qualifiedname>gui.AudioApp.light_colors</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="91" column="1" bodyfile="gui.py" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_audio_app_1a4a70c6c9748c44abab38668bb0e7f2b9" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>gui.AudioApp::dark_colors</definition>
+        <argsstring></argsstring>
+        <name>dark_colors</name>
+        <qualifiedname>gui.AudioApp.dark_colors</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="100" column="1" bodyfile="gui.py" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_audio_app_1ac079382d10d90d7f2d783c33ea5f05d4" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>gui.AudioApp::chem_im</definition>
+        <argsstring></argsstring>
+        <name>chem_im</name>
+        <qualifiedname>gui.AudioApp.chem_im</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="111" column="1" bodyfile="gui.py" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_audio_app_1a6723e804e1c116d08fa0c85c22642137" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>gui.AudioApp::image_path_default</definition>
+        <argsstring></argsstring>
+        <name>image_path_default</name>
+        <qualifiedname>gui.AudioApp.image_path_default</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="112" column="1" bodyfile="gui.py" bodystart="112" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_audio_app_1a08cd290cb02a15dccfc2ed8532a2c245" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>gui.AudioApp::default_music_dir</definition>
+        <argsstring></argsstring>
+        <name>default_music_dir</name>
+        <qualifiedname>gui.AudioApp.default_music_dir</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="113" column="1" bodyfile="gui.py" bodystart="113" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_audio_app_1ac62370c474907cb18cc368c06391e767" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>gui.AudioApp::api_music_dir</definition>
+        <argsstring></argsstring>
+        <name>api_music_dir</name>
+        <qualifiedname>gui.AudioApp.api_music_dir</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="115" column="1" bodyfile="gui.py" bodystart="115" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_audio_app_1a1ad4fd36071c3664343b35a2c99b5fa1" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>gui.AudioApp::icons</definition>
+        <argsstring></argsstring>
+        <name>icons</name>
+        <qualifiedname>gui.AudioApp.icons</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="117" column="1" bodyfile="gui.py" bodystart="117" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_audio_app_1abdf97c1331e142b9cee0441da820a6f8" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>gui.AudioApp::all_buttons</definition>
+        <argsstring></argsstring>
+        <name>all_buttons</name>
+        <qualifiedname>gui.AudioApp.all_buttons</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="119" column="1" bodyfile="gui.py" bodystart="119" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_audio_app_1afdfd1b54cbaee2cefc50e9dd98658607" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>gui.AudioApp::panel1</definition>
+        <argsstring></argsstring>
+        <name>panel1</name>
+        <qualifiedname>gui.AudioApp.panel1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="236" column="1" bodyfile="gui.py" bodystart="236" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_audio_app_1a12b8cd4e24f27a5ed5d9235577d2dbfd" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>gui.AudioApp::panel2</definition>
+        <argsstring></argsstring>
+        <name>panel2</name>
+        <qualifiedname>gui.AudioApp.panel2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="289" column="1" bodyfile="gui.py" bodystart="289" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_audio_app_1a84466b88669aff3af124b0db10ed5fb2" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>gui.AudioApp::frame1_haut</definition>
+        <argsstring></argsstring>
+        <name>frame1_haut</name>
+        <qualifiedname>gui.AudioApp.frame1_haut</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="292" column="1" bodyfile="gui.py" bodystart="292" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_audio_app_1a73934520cbd100e77c1d6591134b29b3" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>gui.AudioApp::frame2_centre</definition>
+        <argsstring></argsstring>
+        <name>frame2_centre</name>
+        <qualifiedname>gui.AudioApp.frame2_centre</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="293" column="1" bodyfile="gui.py" bodystart="293" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_audio_app_1a6f3982f71335dce7dff98bf6814ef5a8" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>gui.AudioApp::frame3_bas</definition>
+        <argsstring></argsstring>
+        <name>frame3_bas</name>
+        <qualifiedname>gui.AudioApp.frame3_bas</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="294" column="1" bodyfile="gui.py" bodystart="294" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_audio_app_1a229ad12887cc67203b6e8a7410a843a7" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>gui.AudioApp::search_type_var</definition>
+        <argsstring></argsstring>
+        <name>search_type_var</name>
+        <qualifiedname>gui.AudioApp.search_type_var</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="302" column="1" bodyfile="gui.py" bodystart="302" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_audio_app_1ad6b0ec1d659c6b29a519178dea134d6b" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>gui.AudioApp::label_Check</definition>
+        <argsstring></argsstring>
+        <name>label_Check</name>
+        <qualifiedname>gui.AudioApp.label_Check</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="317" column="1" bodyfile="gui.py" bodystart="317" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_audio_app_1a71b03a4828ad0b26c872e75d5f934727" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>gui.AudioApp::entry_ecriture_haut</definition>
+        <argsstring></argsstring>
+        <name>entry_ecriture_haut</name>
+        <qualifiedname>gui.AudioApp.entry_ecriture_haut</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="321" column="1" bodyfile="gui.py" bodystart="321" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_audio_app_1ad3e05cc6f9bd089541cc6f059fe4c9e3" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>gui.AudioApp::butt_check_api</definition>
+        <argsstring></argsstring>
+        <name>butt_check_api</name>
+        <qualifiedname>gui.AudioApp.butt_check_api</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="329" column="1" bodyfile="gui.py" bodystart="329" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_audio_app_1a1d32f9dee9c1e1bc0496db2659c2848f" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>gui.AudioApp::butt_retour_api</definition>
+        <argsstring></argsstring>
+        <name>butt_retour_api</name>
+        <qualifiedname>gui.AudioApp.butt_retour_api</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="334" column="1" bodyfile="gui.py" bodystart="334" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_audio_app_1a882257a157a2234a5ad5c29c6db1a0d2" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>gui.AudioApp::section1_gauche_liste</definition>
+        <argsstring></argsstring>
+        <name>section1_gauche_liste</name>
+        <qualifiedname>gui.AudioApp.section1_gauche_liste</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="345" column="1" bodyfile="gui.py" bodystart="345" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_audio_app_1a1a5cec17b223f8f4fa82dbfbed2a06f5" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>gui.AudioApp::audio_listbox</definition>
+        <argsstring></argsstring>
+        <name>audio_listbox</name>
+        <qualifiedname>gui.AudioApp.audio_listbox</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="348" column="1" bodyfile="gui.py" bodystart="348" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_audio_app_1a3a553efc30d6867770e0bd3a77c56d6c" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>gui.AudioApp::on_listbox_double</definition>
+        <argsstring></argsstring>
+        <name>on_listbox_double</name>
+        <qualifiedname>gui.AudioApp.on_listbox_double</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="351" column="1" bodyfile="gui.py" bodystart="351" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_audio_app_1a797e43dc7dbe6a181e0630372d54bf60" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>gui.AudioApp::scrollbarlistbox</definition>
+        <argsstring></argsstring>
+        <name>scrollbarlistbox</name>
+        <qualifiedname>gui.AudioApp.scrollbarlistbox</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="353" column="1" bodyfile="gui.py" bodystart="353" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_audio_app_1adb07e30bd3219b417e7a15d2da69bc28" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>gui.AudioApp::on_drop</definition>
+        <argsstring></argsstring>
+        <name>on_drop</name>
+        <qualifiedname>gui.AudioApp.on_drop</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="358" column="1" bodyfile="gui.py" bodystart="358" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_audio_app_1af94043692f3ae03c99304e69083ea62f" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>gui.AudioApp::section2_centre_cover</definition>
+        <argsstring></argsstring>
+        <name>section2_centre_cover</name>
+        <qualifiedname>gui.AudioApp.section2_centre_cover</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="361" column="1" bodyfile="gui.py" bodystart="361" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_audio_app_1ab6e0ab8948327079708fd026c0581d30" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>gui.AudioApp::centrale_label</definition>
+        <argsstring></argsstring>
+        <name>centrale_label</name>
+        <qualifiedname>gui.AudioApp.centrale_label</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="364" column="1" bodyfile="gui.py" bodystart="364" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_audio_app_1ae3318061a01331cae65b7cc5c3e6a765" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>gui.AudioApp::A_label_cover</definition>
+        <argsstring></argsstring>
+        <name>A_label_cover</name>
+        <qualifiedname>gui.AudioApp.A_label_cover</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="367" column="1" bodyfile="gui.py" bodystart="367" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_audio_app_1aa4033f516ba02c368415acf160963424" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>gui.AudioApp::B_label_fichier_boutton</definition>
+        <argsstring></argsstring>
+        <name>B_label_fichier_boutton</name>
+        <qualifiedname>gui.AudioApp.B_label_fichier_boutton</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="370" column="1" bodyfile="gui.py" bodystart="370" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_audio_app_1a941251adb5a7003847e990efe49c1afd" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>gui.AudioApp::B1_label_fichier_nom</definition>
+        <argsstring></argsstring>
+        <name>B1_label_fichier_nom</name>
+        <qualifiedname>gui.AudioApp.B1_label_fichier_nom</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="373" column="1" bodyfile="gui.py" bodystart="373" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_audio_app_1a520f55d7ebf484d1b71292229227f591" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>gui.AudioApp::B2_label_bouton_manip</definition>
+        <argsstring></argsstring>
+        <name>B2_label_bouton_manip</name>
+        <qualifiedname>gui.AudioApp.B2_label_bouton_manip</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="379" column="1" bodyfile="gui.py" bodystart="379" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_audio_app_1a3f54f2279142740036956d330c8d60a1" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>gui.AudioApp::panel_controls</definition>
+        <argsstring></argsstring>
+        <name>panel_controls</name>
+        <qualifiedname>gui.AudioApp.panel_controls</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="384" column="1" bodyfile="gui.py" bodystart="384" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_audio_app_1a7c4d178218fa203a92ea0cf0570dbcb3" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>gui.AudioApp::prev_audio</definition>
+        <argsstring></argsstring>
+        <name>prev_audio</name>
+        <qualifiedname>gui.AudioApp.prev_audio</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="403" column="1" bodyfile="gui.py" bodystart="403" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_audio_app_1a8809265069b9d937c943d769ed0730e8" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>gui.AudioApp::play_audio</definition>
+        <argsstring></argsstring>
+        <name>play_audio</name>
+        <qualifiedname>gui.AudioApp.play_audio</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="404" column="1" bodyfile="gui.py" bodystart="404" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_audio_app_1aba1a34e967cd62748a1f9818a796a61b" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>gui.AudioApp::pause_resume</definition>
+        <argsstring></argsstring>
+        <name>pause_resume</name>
+        <qualifiedname>gui.AudioApp.pause_resume</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="405" column="1" bodyfile="gui.py" bodystart="405" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_audio_app_1a29306fe91bbd28d8ce93d5ac41473ea7" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>gui.AudioApp::next_audio</definition>
+        <argsstring></argsstring>
+        <name>next_audio</name>
+        <qualifiedname>gui.AudioApp.next_audio</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="406" column="1" bodyfile="gui.py" bodystart="406" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_audio_app_1a80459f848575892b06cb362e3b10093b" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>gui.AudioApp::show_lyrics_popup</definition>
+        <argsstring></argsstring>
+        <name>show_lyrics_popup</name>
+        <qualifiedname>gui.AudioApp.show_lyrics_popup</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="407" column="1" bodyfile="gui.py" bodystart="407" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_audio_app_1a7f195c9c9b31e64bd9a93fb71f1c30ba" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>gui.AudioApp::section3_metaData</definition>
+        <argsstring></argsstring>
+        <name>section3_metaData</name>
+        <qualifiedname>gui.AudioApp.section3_metaData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="411" column="1" bodyfile="gui.py" bodystart="411" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_audio_app_1ade53308ebb9bfd2030def79e6f2a67fa" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>gui.AudioApp::metaData_label</definition>
+        <argsstring></argsstring>
+        <name>metaData_label</name>
+        <qualifiedname>gui.AudioApp.metaData_label</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="414" column="1" bodyfile="gui.py" bodystart="414" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_audio_app_1a762d832c8573a6e1cff8ef92fe731107" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>gui.AudioApp::explo_playlist_boutton</definition>
+        <argsstring></argsstring>
+        <name>explo_playlist_boutton</name>
+        <qualifiedname>gui.AudioApp.explo_playlist_boutton</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="418" column="1" bodyfile="gui.py" bodystart="418" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_audio_app_1ab40c52fde5e5b3d1a72509d20d87d7be" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>gui.AudioApp::zone_petit_logo</definition>
+        <argsstring></argsstring>
+        <name>zone_petit_logo</name>
+        <qualifiedname>gui.AudioApp.zone_petit_logo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="421" column="1" bodyfile="gui.py" bodystart="421" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_audio_app_1ad9316236c1b44f6afb6f83a48ec9200b" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>gui.AudioApp::im_tk</definition>
+        <argsstring></argsstring>
+        <name>im_tk</name>
+        <qualifiedname>gui.AudioApp.im_tk</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="427" column="1" bodyfile="gui.py" bodystart="427" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_audio_app_1ab2f77026938c61a20835c42b7365db99" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>gui.AudioApp::label_img_petit_logo</definition>
+        <argsstring></argsstring>
+        <name>label_img_petit_logo</name>
+        <qualifiedname>gui.AudioApp.label_img_petit_logo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="434" column="1" bodyfile="gui.py" bodystart="434" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_audio_app_1a0df05428a13de3c00ba415b7e98bce04" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>gui.AudioApp::explore_folder</definition>
+        <argsstring></argsstring>
+        <name>explore_folder</name>
+        <qualifiedname>gui.AudioApp.explore_folder</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="440" column="1" bodyfile="gui.py" bodystart="440" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_audio_app_1a4742227ed83bdbd7542934e1152f704a" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>gui.AudioApp::create_playlist</definition>
+        <argsstring></argsstring>
+        <name>create_playlist</name>
+        <qualifiedname>gui.AudioApp.create_playlist</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="440" column="1" bodyfile="gui.py" bodystart="440" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_audio_app_1afb5c2c0264f78fd4e4a8f360d0e7ed3b" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>gui.AudioApp::edit_metadata</definition>
+        <argsstring></argsstring>
+        <name>edit_metadata</name>
+        <qualifiedname>gui.AudioApp.edit_metadata</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="441" column="1" bodyfile="gui.py" bodystart="441" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_audio_app_1addda7222abdcf1a05dd3a2c5bc4f072f" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>gui.AudioApp::play_playlist</definition>
+        <argsstring></argsstring>
+        <name>play_playlist</name>
+        <qualifiedname>gui.AudioApp.play_playlist</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="441" column="1" bodyfile="gui.py" bodystart="441" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_audio_app_1aa65de8b0b35db7edd28c497abdda7d13" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>gui.AudioApp::btn_dark_mode</definition>
+        <argsstring></argsstring>
+        <name>btn_dark_mode</name>
+        <qualifiedname>gui.AudioApp.btn_dark_mode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="453" column="1" bodyfile="gui.py" bodystart="453" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_audio_app_1afe2e44b9195b88b63efe0b38313be179" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>gui.AudioApp::tailleListbox</definition>
+        <argsstring></argsstring>
+        <name>tailleListbox</name>
+        <qualifiedname>gui.AudioApp.tailleListbox</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="463" column="1" bodyfile="gui.py" bodystart="463" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_audio_app_1ae438654042f84ab0da7e46eabce4b712" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>gui.AudioApp::cover_tk</definition>
+        <argsstring></argsstring>
+        <name>cover_tk</name>
+        <qualifiedname>gui.AudioApp.cover_tk</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="884" column="1" bodyfile="gui.py" bodystart="884" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_audio_app_1a9903f1c822725098b5c51855d47b4fb5" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>gui.AudioApp::playlist_vars</definition>
+        <argsstring></argsstring>
+        <name>playlist_vars</name>
+        <qualifiedname>gui.AudioApp.playlist_vars</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="1130" column="1" bodyfile="gui.py" bodystart="1130" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgui_1_1_audio_app_1a24d7af4926927b7e8e90905fd5110867" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gui.AudioApp.__init__</definition>
+        <argsstring>(self, master)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>gui.AudioApp.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>master</type>
+          <defname>master</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Initialise l&apos;application AUDIGU avec son interface, ses états audio, et ses configurations (polices, couleurs, chemins, icônes). 
+Prépare la fenêtre Tkinter principale, le lecteur audio, et les composants de l&apos;interface utilisateur.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="58" column="1" bodyfile="gui.py" bodystart="58" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="classgui_1_1_audio_app_1a9b9f311fa29a0f11cd1565935cb22535" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gui.AudioApp.load_icons</definition>
+        <argsstring>(self)</argsstring>
+        <name>load_icons</name>
+        <qualifiedname>gui.AudioApp.load_icons</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="124" column="1" bodyfile="gui.py" bodystart="124" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="function" id="classgui_1_1_audio_app_1ad2ceb05940f2a636d65f8a05bc5e5cc2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gui.AudioApp.style_button</definition>
+        <argsstring>(self, btn, bg_color=&quot;#3498DB&quot;, fg_color=&quot;white&quot;)</argsstring>
+        <name>style_button</name>
+        <qualifiedname>gui.AudioApp.style_button</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>btn</type>
+          <defname>btn</defname>
+        </param>
+        <param>
+          <type>bg_color</type>
+          <defname>bg_color</defname>
+          <defval>&quot;#3498DB&quot;</defval>
+        </param>
+        <param>
+          <type>fg_color</type>
+          <defname>fg_color</defname>
+          <defval>&quot;white&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="145" column="1" bodyfile="gui.py" bodystart="145" bodyend="153"/>
+      </memberdef>
+      <memberdef kind="function" id="classgui_1_1_audio_app_1a5268d25c95f120eedb279b07c1c8bf08" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gui.AudioApp.style_listbox</definition>
+        <argsstring>(self, listbox)</argsstring>
+        <name>style_listbox</name>
+        <qualifiedname>gui.AudioApp.style_listbox</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>listbox</type>
+          <defname>listbox</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="154" column="1" bodyfile="gui.py" bodystart="154" bodyend="157"/>
+      </memberdef>
+      <memberdef kind="function" id="classgui_1_1_audio_app_1a409b83c5c11fd315d6ef28ec7ec8c8c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gui.AudioApp.show_lyrics_popup</definition>
+        <argsstring>(self)</argsstring>
+        <name>show_lyrics_popup</name>
+        <qualifiedname>gui.AudioApp.show_lyrics_popup</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Affiche les paroles dans une fenêtre popup</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="158" column="1" bodyfile="gui.py" bodystart="158" bodyend="232"/>
+      </memberdef>
+      <memberdef kind="function" id="classgui_1_1_audio_app_1a8eca88c298c2526f5e6ac7ae1132402f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gui.AudioApp.build_interface_structure</definition>
+        <argsstring>(self)</argsstring>
+        <name>build_interface_structure</name>
+        <qualifiedname>gui.AudioApp.build_interface_structure</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="234" column="1" bodyfile="gui.py" bodystart="234" bodyend="465"/>
+      </memberdef>
+      <memberdef kind="function" id="classgui_1_1_audio_app_1aaef4818a89166cd4da5deb0103526b18" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gui.AudioApp.toggle_dark_mode</definition>
+        <argsstring>(self)</argsstring>
+        <name>toggle_dark_mode</name>
+        <qualifiedname>gui.AudioApp.toggle_dark_mode</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="466" column="1" bodyfile="gui.py" bodystart="466" bodyend="469"/>
+      </memberdef>
+      <memberdef kind="function" id="classgui_1_1_audio_app_1a597dc99de0d5e7ff782cbb48e13345b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gui.AudioApp.apply_theme</definition>
+        <argsstring>(self)</argsstring>
+        <name>apply_theme</name>
+        <qualifiedname>gui.AudioApp.apply_theme</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="470" column="1" bodyfile="gui.py" bodystart="470" bodyend="511"/>
+      </memberdef>
+      <memberdef kind="function" id="classgui_1_1_audio_app_1ad171dd5835ebff66c2d6263c6a7c50ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gui.AudioApp.direct_Goto</definition>
+        <argsstring>(self, event=None)</argsstring>
+        <name>direct_Goto</name>
+        <qualifiedname>gui.AudioApp.direct_Goto</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>event</type>
+          <defname>event</defname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="513" column="1" bodyfile="gui.py" bodystart="513" bodyend="524"/>
+      </memberdef>
+      <memberdef kind="function" id="classgui_1_1_audio_app_1a9442e457149669bb3df06a380a41224e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gui.AudioApp.explore_folder</definition>
+        <argsstring>(self, path=None)</argsstring>
+        <name>explore_folder</name>
+        <qualifiedname>gui.AudioApp.explore_folder</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>path</type>
+          <defname>path</defname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="526" column="1" bodyfile="gui.py" bodystart="526" bodyend="541"/>
+      </memberdef>
+      <memberdef kind="function" id="classgui_1_1_audio_app_1a6720e910fb838fe7048b700682215db6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gui.AudioApp.on_listbox_double</definition>
+        <argsstring>(self, event=None)</argsstring>
+        <name>on_listbox_double</name>
+        <qualifiedname>gui.AudioApp.on_listbox_double</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>event</type>
+          <defname>event</defname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="543" column="1" bodyfile="gui.py" bodystart="543" bodyend="580"/>
+      </memberdef>
+      <memberdef kind="function" id="classgui_1_1_audio_app_1a461b68a0f2f700081de0ab88b7b93f2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gui.AudioApp.play_audio</definition>
+        <argsstring>(self)</argsstring>
+        <name>play_audio</name>
+        <qualifiedname>gui.AudioApp.play_audio</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="581" column="1" bodyfile="gui.py" bodystart="581" bodyend="598"/>
+      </memberdef>
+      <memberdef kind="function" id="classgui_1_1_audio_app_1af730fe5d1d8281a108868ae88e61a2bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gui.AudioApp.pause_resume</definition>
+        <argsstring>(self)</argsstring>
+        <name>pause_resume</name>
+        <qualifiedname>gui.AudioApp.pause_resume</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="599" column="1" bodyfile="gui.py" bodystart="599" bodyend="607"/>
+      </memberdef>
+      <memberdef kind="function" id="classgui_1_1_audio_app_1aceb276d034113c8f8bf73e153915a835" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gui.AudioApp.next_audio</definition>
+        <argsstring>(self, event=None)</argsstring>
+        <name>next_audio</name>
+        <qualifiedname>gui.AudioApp.next_audio</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>event</type>
+          <defname>event</defname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="608" column="1" bodyfile="gui.py" bodystart="608" bodyend="620"/>
+      </memberdef>
+      <memberdef kind="function" id="classgui_1_1_audio_app_1ae4407772d2e64fa744032cb2043297c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gui.AudioApp.prev_audio</definition>
+        <argsstring>(self, event=None)</argsstring>
+        <name>prev_audio</name>
+        <qualifiedname>gui.AudioApp.prev_audio</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>event</type>
+          <defname>event</defname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="621" column="1" bodyfile="gui.py" bodystart="621" bodyend="633"/>
+      </memberdef>
+      <memberdef kind="function" id="classgui_1_1_audio_app_1a151d6fecbe5d664fb602deb11c3aa6b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gui.AudioApp.show_audio_details</definition>
+        <argsstring>(self, event=None, path=None)</argsstring>
+        <name>show_audio_details</name>
+        <qualifiedname>gui.AudioApp.show_audio_details</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>event</type>
+          <defname>event</defname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>path</type>
+          <defname>path</defname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="635" column="1" bodyfile="gui.py" bodystart="635" bodyend="654"/>
+      </memberdef>
+      <memberdef kind="function" id="classgui_1_1_audio_app_1af3cd6a0a2dd1863ce51491d2faa2494c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gui.AudioApp.edit_metadata</definition>
+        <argsstring>(self)</argsstring>
+        <name>edit_metadata</name>
+        <qualifiedname>gui.AudioApp.edit_metadata</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="656" column="1" bodyfile="gui.py" bodystart="656" bodyend="795"/>
+      </memberdef>
+      <memberdef kind="function" id="classgui_1_1_audio_app_1a1f62bf8a01e4863dc156e2d143cca0cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gui.AudioApp.extract_metadata</definition>
+        <argsstring>(self, path)</argsstring>
+        <name>extract_metadata</name>
+        <qualifiedname>gui.AudioApp.extract_metadata</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>path</type>
+          <defname>path</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="797" column="1" bodyfile="gui.py" bodystart="797" bodyend="868"/>
+      </memberdef>
+      <memberdef kind="function" id="classgui_1_1_audio_app_1aaf079651ad4f710b3a1b91bcc64c6b0d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gui.AudioApp.show_cover</definition>
+        <argsstring>(self, path)</argsstring>
+        <name>show_cover</name>
+        <qualifiedname>gui.AudioApp.show_cover</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>path</type>
+          <defname>path</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="869" column="1" bodyfile="gui.py" bodystart="869" bodyend="892"/>
+      </memberdef>
+      <memberdef kind="function" id="classgui_1_1_audio_app_1ab5056b1f4892b2c59d4c3c01511cdcf7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gui.AudioApp.check_search_from_top</definition>
+        <argsstring>(self)</argsstring>
+        <name>check_search_from_top</name>
+        <qualifiedname>gui.AudioApp.check_search_from_top</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="894" column="1" bodyfile="gui.py" bodystart="894" bodyend="901"/>
+      </memberdef>
+      <memberdef kind="function" id="classgui_1_1_audio_app_1a1ee91f8cce10eef9136f113c5eaf743e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gui.AudioApp.check_search</definition>
+        <argsstring>(self, query=None, search_type=&quot;titre&quot;)</argsstring>
+        <name>check_search</name>
+        <qualifiedname>gui.AudioApp.check_search</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>query</type>
+          <defname>query</defname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>search_type</type>
+          <defname>search_type</defname>
+          <defval>&quot;titre&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="902" column="1" bodyfile="gui.py" bodystart="902" bodyend="990"/>
+      </memberdef>
+      <memberdef kind="function" id="classgui_1_1_audio_app_1a83b0d4b70227ca747c96f5e3b9ad6034" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gui.AudioApp.search_api_popup</definition>
+        <argsstring>(self, query, search_type)</argsstring>
+        <name>search_api_popup</name>
+        <qualifiedname>gui.AudioApp.search_api_popup</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>query</type>
+          <defname>query</defname>
+        </param>
+        <param>
+          <type>search_type</type>
+          <defname>search_type</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="991" column="1" bodyfile="gui.py" bodystart="991" bodyend="1098"/>
+      </memberdef>
+      <memberdef kind="function" id="classgui_1_1_audio_app_1aba6645959bcc4ed8ea1ec9f35a5e9594" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gui.AudioApp.create_playlist</definition>
+        <argsstring>(self)</argsstring>
+        <name>create_playlist</name>
+        <qualifiedname>gui.AudioApp.create_playlist</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="1100" column="1" bodyfile="gui.py" bodystart="1100" bodyend="1181"/>
+      </memberdef>
+      <memberdef kind="function" id="classgui_1_1_audio_app_1ad3ddc397dc8fac325081610ae7163f3a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gui.AudioApp.play_playlist</definition>
+        <argsstring>(self)</argsstring>
+        <name>play_playlist</name>
+        <qualifiedname>gui.AudioApp.play_playlist</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="1183" column="1" bodyfile="gui.py" bodystart="1183" bodyend="1202"/>
+      </memberdef>
+      <memberdef kind="function" id="classgui_1_1_audio_app_1aa3ef16f42dceaa5bd1e35d36ea410525" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gui.AudioApp.open_playlist</definition>
+        <argsstring>(self)</argsstring>
+        <name>open_playlist</name>
+        <qualifiedname>gui.AudioApp.open_playlist</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="1204" column="1" bodyfile="gui.py" bodystart="1204" bodyend="1239"/>
+      </memberdef>
+      <memberdef kind="function" id="classgui_1_1_audio_app_1ae3b40589f0f40b90a532e20240aaf108" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gui.AudioApp.return_full_list</definition>
+        <argsstring>(self)</argsstring>
+        <name>return_full_list</name>
+        <qualifiedname>gui.AudioApp.return_full_list</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="1241" column="1" bodyfile="gui.py" bodystart="1241" bodyend="1248"/>
+      </memberdef>
+      <memberdef kind="function" id="classgui_1_1_audio_app_1a7aae987dd6565b3d9bdb0548e81ee4cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gui.AudioApp.truncate_name</definition>
+        <argsstring>(self, name, max_len=None)</argsstring>
+        <name>truncate_name</name>
+        <qualifiedname>gui.AudioApp.truncate_name</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>name</type>
+          <defname>name</defname>
+        </param>
+        <param>
+          <type>max_len</type>
+          <defname>max_len</defname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="1249" column="1" bodyfile="gui.py" bodystart="1249" bodyend="1253"/>
+      </memberdef>
+      <memberdef kind="function" id="classgui_1_1_audio_app_1a059caa26068bc79055fb6b5f301b4edc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str gui.AudioApp.verifier_et_couper_nom_Milieu</definition>
+        <argsstring>(self, str nom_fichier)</argsstring>
+        <name>verifier_et_couper_nom_Milieu</name>
+        <qualifiedname>gui.AudioApp.verifier_et_couper_nom_Milieu</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>nom_fichier</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="1254" column="1" bodyfile="gui.py" bodystart="1254" bodyend="1260"/>
+      </memberdef>
+      <memberdef kind="function" id="classgui_1_1_audio_app_1a52a757fce87750178c8a6b4bee18e58e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gui.AudioApp.on_drop</definition>
+        <argsstring>(self, event)</argsstring>
+        <name>on_drop</name>
+        <qualifiedname>gui.AudioApp.on_drop</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>event</type>
+          <defname>event</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="1263" column="1" bodyfile="gui.py" bodystart="1263" bodyend="1300"/>
+      </memberdef>
+      <memberdef kind="function" id="classgui_1_1_audio_app_1adcfbaf22255c3ecfcbd5a54fb571e396" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gui.AudioApp.is_audio_file</definition>
+        <argsstring>(self, file_path)</argsstring>
+        <name>is_audio_file</name>
+        <qualifiedname>gui.AudioApp.is_audio_file</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>file_path</type>
+          <defname>file_path</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gui.py" line="1302" column="1" bodyfile="gui.py" bodystart="1302" bodyend="1311"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="gui.py" line="57" column="1" bodyfile="gui.py" bodystart="57" bodyend="1311"/>
+    <listofallmembers>
+      <member refid="classgui_1_1_audio_app_1a24d7af4926927b7e8e90905fd5110867" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>__init__</name></member>
+      <member refid="classgui_1_1_audio_app_1ae3318061a01331cae65b7cc5c3e6a765" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>A_label_cover</name></member>
+      <member refid="classgui_1_1_audio_app_1abdf97c1331e142b9cee0441da820a6f8" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>all_buttons</name></member>
+      <member refid="classgui_1_1_audio_app_1ac62370c474907cb18cc368c06391e767" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>api_music_dir</name></member>
+      <member refid="classgui_1_1_audio_app_1a597dc99de0d5e7ff782cbb48e13345b4" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>apply_theme</name></member>
+      <member refid="classgui_1_1_audio_app_1a15da49c39a1a0122d45b17e3a5ad3ea4" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>audio_list</name></member>
+      <member refid="classgui_1_1_audio_app_1a1a5cec17b223f8f4fa82dbfbed2a06f5" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>audio_listbox</name></member>
+      <member refid="classgui_1_1_audio_app_1ac14e4de359e84c5b6a45d416a8c10007" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>audio_paths</name></member>
+      <member refid="classgui_1_1_audio_app_1a9aac7ea9a946625180c2834bfb8c383a" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>audio_playing</name></member>
+      <member refid="classgui_1_1_audio_app_1a941251adb5a7003847e990efe49c1afd" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>B1_label_fichier_nom</name></member>
+      <member refid="classgui_1_1_audio_app_1a520f55d7ebf484d1b71292229227f591" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>B2_label_bouton_manip</name></member>
+      <member refid="classgui_1_1_audio_app_1aa4033f516ba02c368415acf160963424" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>B_label_fichier_boutton</name></member>
+      <member refid="classgui_1_1_audio_app_1aa65de8b0b35db7edd28c497abdda7d13" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>btn_dark_mode</name></member>
+      <member refid="classgui_1_1_audio_app_1a8eca88c298c2526f5e6ac7ae1132402f" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>build_interface_structure</name></member>
+      <member refid="classgui_1_1_audio_app_1ad3e05cc6f9bd089541cc6f059fe4c9e3" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>butt_check_api</name></member>
+      <member refid="classgui_1_1_audio_app_1a1d32f9dee9c1e1bc0496db2659c2848f" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>butt_retour_api</name></member>
+      <member refid="classgui_1_1_audio_app_1ab6e0ab8948327079708fd026c0581d30" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>centrale_label</name></member>
+      <member refid="classgui_1_1_audio_app_1a1ee91f8cce10eef9136f113c5eaf743e" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>check_search</name></member>
+      <member refid="classgui_1_1_audio_app_1ab5056b1f4892b2c59d4c3c01511cdcf7" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>check_search_from_top</name></member>
+      <member refid="classgui_1_1_audio_app_1ac079382d10d90d7f2d783c33ea5f05d4" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>chem_im</name></member>
+      <member refid="classgui_1_1_audio_app_1ae438654042f84ab0da7e46eabce4b712" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>cover_tk</name></member>
+      <member refid="classgui_1_1_audio_app_1a4742227ed83bdbd7542934e1152f704a" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>create_playlist</name></member>
+      <member refid="classgui_1_1_audio_app_1aba6645959bcc4ed8ea1ec9f35a5e9594" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>create_playlist</name></member>
+      <member refid="classgui_1_1_audio_app_1a7b6bb54b0fb70750ee876aef7b83b77b" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>current_artist</name></member>
+      <member refid="classgui_1_1_audio_app_1ae12be2f26011e3284c6384b43e8fcc9a" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>current_index</name></member>
+      <member refid="classgui_1_1_audio_app_1aca42d37a64bda58ee585a2d74e58368c" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>current_lyrics</name></member>
+      <member refid="classgui_1_1_audio_app_1afe6fe2d46891a2d1e6d13219cc67f3b9" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>current_playlist</name></member>
+      <member refid="classgui_1_1_audio_app_1ad99f4b617080fb07054c4cd95afe4d4b" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>current_title</name></member>
+      <member refid="classgui_1_1_audio_app_1a4a70c6c9748c44abab38668bb0e7f2b9" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>dark_colors</name></member>
+      <member refid="classgui_1_1_audio_app_1a814999b709acd053d7133cd6dc99c315" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>dark_mode</name></member>
+      <member refid="classgui_1_1_audio_app_1a08cd290cb02a15dccfc2ed8532a2c245" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>default_music_dir</name></member>
+      <member refid="classgui_1_1_audio_app_1ad171dd5835ebff66c2d6263c6a7c50ee" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>direct_Goto</name></member>
+      <member refid="classgui_1_1_audio_app_1afb5c2c0264f78fd4e4a8f360d0e7ed3b" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>edit_metadata</name></member>
+      <member refid="classgui_1_1_audio_app_1af3cd6a0a2dd1863ce51491d2faa2494c" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>edit_metadata</name></member>
+      <member refid="classgui_1_1_audio_app_1a71b03a4828ad0b26c872e75d5f934727" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>entry_ecriture_haut</name></member>
+      <member refid="classgui_1_1_audio_app_1a762d832c8573a6e1cff8ef92fe731107" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>explo_playlist_boutton</name></member>
+      <member refid="classgui_1_1_audio_app_1a0df05428a13de3c00ba415b7e98bce04" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>explore_folder</name></member>
+      <member refid="classgui_1_1_audio_app_1a9442e457149669bb3df06a380a41224e" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>explore_folder</name></member>
+      <member refid="classgui_1_1_audio_app_1a1f62bf8a01e4863dc156e2d143cca0cf" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>extract_metadata</name></member>
+      <member refid="classgui_1_1_audio_app_1a22731d1f01d541745316a6c6ec09645c" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>fetcher</name></member>
+      <member refid="classgui_1_1_audio_app_1aeb055708cd021650c65feb6f9b1b7d7e" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>filtered_audio_list</name></member>
+      <member refid="classgui_1_1_audio_app_1a54ec9ed9a09307e1309be9a02cccaaa5" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>FONT_PANEL2_LARGE</name></member>
+      <member refid="classgui_1_1_audio_app_1a40034937f1d966c14cc8c6b93290e728" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>FONT_PANEL2_MEDIUM</name></member>
+      <member refid="classgui_1_1_audio_app_1ae632f15cae54655dd84b5fc422500a94" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>FONT_PANEL2_SMALL</name></member>
+      <member refid="classgui_1_1_audio_app_1a84466b88669aff3af124b0db10ed5fb2" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>frame1_haut</name></member>
+      <member refid="classgui_1_1_audio_app_1a73934520cbd100e77c1d6591134b29b3" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>frame2_centre</name></member>
+      <member refid="classgui_1_1_audio_app_1a6f3982f71335dce7dff98bf6814ef5a8" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>frame3_bas</name></member>
+      <member refid="classgui_1_1_audio_app_1a1ad4fd36071c3664343b35a2c99b5fa1" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>icons</name></member>
+      <member refid="classgui_1_1_audio_app_1ad9316236c1b44f6afb6f83a48ec9200b" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>im_tk</name></member>
+      <member refid="classgui_1_1_audio_app_1a6723e804e1c116d08fa0c85c22642137" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>image_path_default</name></member>
+      <member refid="classgui_1_1_audio_app_1adcfbaf22255c3ecfcbd5a54fb571e396" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>is_audio_file</name></member>
+      <member refid="classgui_1_1_audio_app_1a1346f0602684dd4518796c18b7298b85" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>is_paused</name></member>
+      <member refid="classgui_1_1_audio_app_1ad6b0ec1d659c6b29a519178dea134d6b" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>label_Check</name></member>
+      <member refid="classgui_1_1_audio_app_1ab2f77026938c61a20835c42b7365db99" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>label_img_petit_logo</name></member>
+      <member refid="classgui_1_1_audio_app_1ac7a39b724d60467140d98a59d5167211" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>light_colors</name></member>
+      <member refid="classgui_1_1_audio_app_1a9b9f311fa29a0f11cd1565935cb22535" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>load_icons</name></member>
+      <member refid="classgui_1_1_audio_app_1ae74edd540246168165264750c08a0938" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>lyrics_fetcher</name></member>
+      <member refid="classgui_1_1_audio_app_1ac9e02e9e120292242748041b44d82700" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>master</name></member>
+      <member refid="classgui_1_1_audio_app_1a9442b9aa46374177d23617f6e2225cd3" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>max_length</name></member>
+      <member refid="classgui_1_1_audio_app_1a879d8eaf56257e1b47babafc5869acbd" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>max_length_milieu</name></member>
+      <member refid="classgui_1_1_audio_app_1ade53308ebb9bfd2030def79e6f2a67fa" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>metaData_label</name></member>
+      <member refid="classgui_1_1_audio_app_1a29306fe91bbd28d8ce93d5ac41473ea7" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>next_audio</name></member>
+      <member refid="classgui_1_1_audio_app_1aceb276d034113c8f8bf73e153915a835" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>next_audio</name></member>
+      <member refid="classgui_1_1_audio_app_1adb07e30bd3219b417e7a15d2da69bc28" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>on_drop</name></member>
+      <member refid="classgui_1_1_audio_app_1a52a757fce87750178c8a6b4bee18e58e" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>on_drop</name></member>
+      <member refid="classgui_1_1_audio_app_1a3a553efc30d6867770e0bd3a77c56d6c" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>on_listbox_double</name></member>
+      <member refid="classgui_1_1_audio_app_1a6720e910fb838fe7048b700682215db6" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>on_listbox_double</name></member>
+      <member refid="classgui_1_1_audio_app_1aa3ef16f42dceaa5bd1e35d36ea410525" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>open_playlist</name></member>
+      <member refid="classgui_1_1_audio_app_1afdfd1b54cbaee2cefc50e9dd98658607" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>panel1</name></member>
+      <member refid="classgui_1_1_audio_app_1a12b8cd4e24f27a5ed5d9235577d2dbfd" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>panel2</name></member>
+      <member refid="classgui_1_1_audio_app_1a3f54f2279142740036956d330c8d60a1" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>panel_controls</name></member>
+      <member refid="classgui_1_1_audio_app_1aba1a34e967cd62748a1f9818a796a61b" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>pause_resume</name></member>
+      <member refid="classgui_1_1_audio_app_1af730fe5d1d8281a108868ae88e61a2bb" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>pause_resume</name></member>
+      <member refid="classgui_1_1_audio_app_1a8809265069b9d937c943d769ed0730e8" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>play_audio</name></member>
+      <member refid="classgui_1_1_audio_app_1a461b68a0f2f700081de0ab88b7b93f2b" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>play_audio</name></member>
+      <member refid="classgui_1_1_audio_app_1addda7222abdcf1a05dd3a2c5bc4f072f" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>play_playlist</name></member>
+      <member refid="classgui_1_1_audio_app_1ad3ddc397dc8fac325081610ae7163f3a" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>play_playlist</name></member>
+      <member refid="classgui_1_1_audio_app_1a9903f1c822725098b5c51855d47b4fb5" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>playlist_vars</name></member>
+      <member refid="classgui_1_1_audio_app_1a7c4d178218fa203a92ea0cf0570dbcb3" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>prev_audio</name></member>
+      <member refid="classgui_1_1_audio_app_1ae4407772d2e64fa744032cb2043297c0" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>prev_audio</name></member>
+      <member refid="classgui_1_1_audio_app_1ae3b40589f0f40b90a532e20240aaf108" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>return_full_list</name></member>
+      <member refid="classgui_1_1_audio_app_1a797e43dc7dbe6a181e0630372d54bf60" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>scrollbarlistbox</name></member>
+      <member refid="classgui_1_1_audio_app_1a83b0d4b70227ca747c96f5e3b9ad6034" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>search_api_popup</name></member>
+      <member refid="classgui_1_1_audio_app_1a229ad12887cc67203b6e8a7410a843a7" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>search_type_var</name></member>
+      <member refid="classgui_1_1_audio_app_1a882257a157a2234a5ad5c29c6db1a0d2" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>section1_gauche_liste</name></member>
+      <member refid="classgui_1_1_audio_app_1af94043692f3ae03c99304e69083ea62f" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>section2_centre_cover</name></member>
+      <member refid="classgui_1_1_audio_app_1a7f195c9c9b31e64bd9a93fb71f1c30ba" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>section3_metaData</name></member>
+      <member refid="classgui_1_1_audio_app_1a151d6fecbe5d664fb602deb11c3aa6b3" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>show_audio_details</name></member>
+      <member refid="classgui_1_1_audio_app_1aaf079651ad4f710b3a1b91bcc64c6b0d" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>show_cover</name></member>
+      <member refid="classgui_1_1_audio_app_1a80459f848575892b06cb362e3b10093b" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>show_lyrics_popup</name></member>
+      <member refid="classgui_1_1_audio_app_1a409b83c5c11fd315d6ef28ec7ec8c8c0" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>show_lyrics_popup</name></member>
+      <member refid="classgui_1_1_audio_app_1ad2ceb05940f2a636d65f8a05bc5e5cc2" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>style_button</name></member>
+      <member refid="classgui_1_1_audio_app_1a5268d25c95f120eedb279b07c1c8bf08" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>style_listbox</name></member>
+      <member refid="classgui_1_1_audio_app_1afe2e44b9195b88b63efe0b38313be179" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>tailleListbox</name></member>
+      <member refid="classgui_1_1_audio_app_1aaef4818a89166cd4da5deb0103526b18" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>toggle_dark_mode</name></member>
+      <member refid="classgui_1_1_audio_app_1a7aae987dd6565b3d9bdb0548e81ee4cf" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>truncate_name</name></member>
+      <member refid="classgui_1_1_audio_app_1a059caa26068bc79055fb6b5f301b4edc" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>verifier_et_couper_nom_Milieu</name></member>
+      <member refid="classgui_1_1_audio_app_1ab40c52fde5e5b3d1a72509d20d87d7be" prot="public" virt="non-virtual"><scope>gui::AudioApp</scope><name>zone_petit_logo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

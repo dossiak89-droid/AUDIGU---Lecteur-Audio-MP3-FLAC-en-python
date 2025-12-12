@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespaceconstitution_playlist" kind="namespace" language="Python">
+    <compoundname>constitutionPlaylist</compoundname>
+    <innerclass refid="classconstitution_playlist_1_1_playlist" prot="public">constitutionPlaylist::Playlist</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>@file constitutionPlaylist.py
+@brief Création et gestion des playlists XSPF.
+
+Fonctionnalités principales :
+- Création de fichiers XSPF par défaut ou avec nom personnalisé
+- Ajout de pistes à la playlist
+- Lecture de fichiers audio à partir de la playlist
+- Compatibilité avec MP3 et FLAC
+- Fonctionnalités GUI et CLI pour générer la playlist automatiquement
+
+Utilisé par le GUI et le CLI pour gérer les playlists.
+
+@author 
+@version 1.0
+@date 
+</verbatim> </para>
+    </detaileddescription>
+    <location file="constitutionPlaylist.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

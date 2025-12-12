@@ -1,0 +1,232 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classecouter_audio_1_1_ecouter" kind="class" language="Python" prot="public">
+    <compoundname>ecouterAudio::Ecouter</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classecouter_audio_1_1_ecouter_1a4cceee17f911f6edeb3d8076db69958d" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>ecouterAudio.Ecouter::current_file</definition>
+        <argsstring></argsstring>
+        <name>current_file</name>
+        <qualifiedname>ecouterAudio.Ecouter.current_file</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ecouterAudio.py" line="22" column="1" bodyfile="ecouterAudio.py" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classecouter_audio_1_1_ecouter_1ac5287a08c9a2ba862f53bcd17fc4bdd4" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>ecouterAudio.Ecouter::is_paused</definition>
+        <argsstring></argsstring>
+        <name>is_paused</name>
+        <qualifiedname>ecouterAudio.Ecouter.is_paused</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ecouterAudio.py" line="23" column="1" bodyfile="ecouterAudio.py" bodystart="23" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classecouter_audio_1_1_ecouter_1a9ddd3ad2a1a77abe38bb1ff140a86f8b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ecouterAudio.Ecouter.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>ecouterAudio.Ecouter.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ecouterAudio.py" line="17" column="1" bodyfile="ecouterAudio.py" bodystart="17" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classecouter_audio_1_1_ecouter_1a80f9cffc8058704978e33d4d2103ce13" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None ecouterAudio.Ecouter.lire_fichier_audio</definition>
+        <argsstring>(self, str chemin_fichier)</argsstring>
+        <name>lire_fichier_audio</name>
+        <qualifiedname>ecouterAudio.Ecouter.lire_fichier_audio</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>chemin_fichier</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Charge et lit un fichier audio avec pygame (NON bloquant).
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ecouterAudio.py" line="26" column="1" bodyfile="ecouterAudio.py" bodystart="26" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classecouter_audio_1_1_ecouter_1ad276a5df960aa43d002cec838d4df459" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None ecouterAudio.Ecouter.lire_fichier_flac</definition>
+        <argsstring>(self, str chemin_fichier)</argsstring>
+        <name>lire_fichier_flac</name>
+        <qualifiedname>ecouterAudio.Ecouter.lire_fichier_flac</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>chemin_fichier</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Lit un fichier FLAC en le convertissant temporairement en WAV (NON bloquant).
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ecouterAudio.py" line="44" column="1" bodyfile="ecouterAudio.py" bodystart="44" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classecouter_audio_1_1_ecouter_1afdd1ad5dacfab498cb95cc39b97cbe8c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None ecouterAudio.Ecouter.lire_fichier_mp3</definition>
+        <argsstring>(self, str chemin_fichier)</argsstring>
+        <name>lire_fichier_mp3</name>
+        <qualifiedname>ecouterAudio.Ecouter.lire_fichier_mp3</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>chemin_fichier</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Lit un fichier MP3 (NON bloquant).
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ecouterAudio.py" line="60" column="1" bodyfile="ecouterAudio.py" bodystart="60" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="classecouter_audio_1_1_ecouter_1a18b2f08e710634230aad501e90c804e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None ecouterAudio.Ecouter.lire_tout_audio</definition>
+        <argsstring>(self, str chemin)</argsstring>
+        <name>lire_tout_audio</name>
+        <qualifiedname>ecouterAudio.Ecouter.lire_tout_audio</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>chemin</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Détermine le type de fichier audio et le lit (NON bloquant).
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ecouterAudio.py" line="72" column="1" bodyfile="ecouterAudio.py" bodystart="72" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="classecouter_audio_1_1_ecouter_1a1a42ef5b9de1c7059e8a88dbc655c53d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ecouterAudio.Ecouter.pause</definition>
+        <argsstring>(self)</argsstring>
+        <name>pause</name>
+        <qualifiedname>ecouterAudio.Ecouter.pause</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Met la musique en pause.</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ecouterAudio.py" line="86" column="1" bodyfile="ecouterAudio.py" bodystart="86" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="classecouter_audio_1_1_ecouter_1af89b9af90f55ca826c6a6413a5554346" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ecouterAudio.Ecouter.resume</definition>
+        <argsstring>(self)</argsstring>
+        <name>resume</name>
+        <qualifiedname>ecouterAudio.Ecouter.resume</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Reprend la lecture :
+- si on était en pause -&gt; reprend là où on s&apos;est arrêté
+- sinon, si on avait fait stop -&gt; relit le fichier depuis le début
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ecouterAudio.py" line="98" column="1" bodyfile="ecouterAudio.py" bodystart="98" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="classecouter_audio_1_1_ecouter_1a0dd11d9660c91503e6fde9661c028967" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ecouterAudio.Ecouter.stop</definition>
+        <argsstring>(self)</argsstring>
+        <name>stop</name>
+        <qualifiedname>ecouterAudio.Ecouter.stop</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Arrête complètement la lecture.</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ecouterAudio.py" line="119" column="1" bodyfile="ecouterAudio.py" bodystart="119" bodyend="128"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Classe pour lire des fichiers audio (MP3, FLAC) via pygame.
+Compatible CLI.
+</verbatim> </para>
+    </detaileddescription>
+    <location file="ecouterAudio.py" line="12" column="1" bodyfile="ecouterAudio.py" bodystart="12" bodyend="128"/>
+    <listofallmembers>
+      <member refid="classecouter_audio_1_1_ecouter_1a9ddd3ad2a1a77abe38bb1ff140a86f8b" prot="public" virt="non-virtual"><scope>ecouterAudio::Ecouter</scope><name>__init__</name></member>
+      <member refid="classecouter_audio_1_1_ecouter_1a4cceee17f911f6edeb3d8076db69958d" prot="public" virt="non-virtual"><scope>ecouterAudio::Ecouter</scope><name>current_file</name></member>
+      <member refid="classecouter_audio_1_1_ecouter_1ac5287a08c9a2ba862f53bcd17fc4bdd4" prot="public" virt="non-virtual"><scope>ecouterAudio::Ecouter</scope><name>is_paused</name></member>
+      <member refid="classecouter_audio_1_1_ecouter_1a80f9cffc8058704978e33d4d2103ce13" prot="public" virt="non-virtual"><scope>ecouterAudio::Ecouter</scope><name>lire_fichier_audio</name></member>
+      <member refid="classecouter_audio_1_1_ecouter_1ad276a5df960aa43d002cec838d4df459" prot="public" virt="non-virtual"><scope>ecouterAudio::Ecouter</scope><name>lire_fichier_flac</name></member>
+      <member refid="classecouter_audio_1_1_ecouter_1afdd1ad5dacfab498cb95cc39b97cbe8c" prot="public" virt="non-virtual"><scope>ecouterAudio::Ecouter</scope><name>lire_fichier_mp3</name></member>
+      <member refid="classecouter_audio_1_1_ecouter_1a18b2f08e710634230aad501e90c804e6" prot="public" virt="non-virtual"><scope>ecouterAudio::Ecouter</scope><name>lire_tout_audio</name></member>
+      <member refid="classecouter_audio_1_1_ecouter_1a1a42ef5b9de1c7059e8a88dbc655c53d" prot="public" virt="non-virtual"><scope>ecouterAudio::Ecouter</scope><name>pause</name></member>
+      <member refid="classecouter_audio_1_1_ecouter_1af89b9af90f55ca826c6a6413a5554346" prot="public" virt="non-virtual"><scope>ecouterAudio::Ecouter</scope><name>resume</name></member>
+      <member refid="classecouter_audio_1_1_ecouter_1a0dd11d9660c91503e6fde9661c028967" prot="public" virt="non-virtual"><scope>ecouterAudio::Ecouter</scope><name>stop</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

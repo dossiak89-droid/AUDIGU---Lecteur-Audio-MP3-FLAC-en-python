@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespaceaudio_meta_edite" kind="namespace" language="Python">
+    <compoundname>audioMetaEdite</compoundname>
+    <innerclass refid="classaudio_meta_edite_1_1_editer" prot="public">audioMetaEdite::Editer</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>@file audioMetaEdite.py
+@brief Module pour modifier les métadonnées des fichiers audio (MP3 / FLAC).
+
+Fonctionnalités principales :
+- Modifier titre, artiste, album, genre et date
+- Sauvegarder les changements dans le fichier audio
+- Gérer les fichiers MP3 via EasyID3 et les FLAC via mutagen.FLAC
+
+Ce module est utilisé par le GUI et le CLI pour éditer les tags audio.
+
+@author
+@version 1.0
+@date 
+</verbatim> </para>
+    </detaileddescription>
+    <location file="audioMetaEdite.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>
